@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Suppliers.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/*</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Licensed to the Apache Software Foundation (ASF) under one or more</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * contributor license agreements.  See the NOTICE file distributed with</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * this work for additional information regarding copyright ownership.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * The ASF licenses this file to You under the Apache License, Version 2.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * (the &#34;License&#34;); you may not use this file except in compliance with</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * the License.  You may obtain a copy of the License at</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *      http://www.apache.org/licenses/LICENSE-2.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Unless required by applicable law or agreed to in writing, software</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * distributed under the License is distributed on an &#34;AS IS&#34; BASIS,</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * See the License for the specific language governing permissions and</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * limitations under the License.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package org.apache.commons.lang3.function;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.function.Supplier;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Helps use {@link Supplier}.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * @since 3.13.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class Suppliers {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Returns the singleton supplier that always returns null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * This supplier never throws an exception.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;/p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @SuppressWarnings(&#34;rawtypes&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    private static Supplier NUL = () -&#62; null;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Null-safe call to {@link Supplier#get()}.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_41'/>
+41
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_41'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @param &#60;T&#62; the type of results supplied by this supplier.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @param supplier the supplier or null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_43'/>
+43
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_43'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @return Result of {@link Supplier#get()} or null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_44'/>
+44
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_44'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_45'/>
+45
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_45'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static &#60;T&#62; T get(final Supplier&#60;T&#62; supplier) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_46'/>
+46
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_46'>2</a>
+<span>
+1. get : negated conditional &rarr; KILLED<br/>
+2. get : replaced return value with null for org/apache/commons/lang3/function/Suppliers::get &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return supplier == null ? null : supplier.get();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_47'/>
+47
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_47'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_48'/>
+48
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_48'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_49'/>
+49
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_49'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Returns the singleton supplier that always returns null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * This supplier never throws an exception.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_53'/>
+53
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_53'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;/p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @param &#60;T&#62; Supplied type.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_56'/>
+56
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_56'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @return The NUL singleton.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @since 3.14.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_59'/>
+59
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_59'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @SuppressWarnings(&#34;unchecked&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static &#60;T&#62; Supplier&#60;T&#62; nul() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_61'/>
+61
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_61'>1</a>
+<span>
+1. nul : replaced return value with null for org/apache/commons/lang3/function/Suppliers::nul &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        return NUL;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_63'/>
+63
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_63'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_65'/>
+65
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_65'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Make private in 4.0.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_66'/>
+66
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_66'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_67'/>
+67
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_67'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @deprecated TODO Make private in 4.0.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_68'/>
+68
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_68'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_69'/>
+69
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_69'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Deprecated</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_70'/>
+70
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_70'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>    public Suppliers() {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_71'/>
+71
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_71'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        // empty</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_72'/>
+72
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_72'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@3d2743ec_73'/>
+73
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_73'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d2743ec_46'>46</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_46'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.function.SuppliersTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.SuppliersTest]/[method:testGet()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.function.SuppliersTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.SuppliersTest]/[method:testGet()]</span></span> replaced return value with null for org/apache/commons/lang3/function/Suppliers::get &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d2743ec_61'>61</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d2743ec_61'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nul<br/><b>Killed by : </b>none</span></span> replaced return value with null for org/apache/commons/lang3/function/Suppliers::nul &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.function.SuppliersTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.SuppliersTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaAwtFonts()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaUtilPrefsPreferencesFactory()] (0 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testDefaultIfEmpty_StringString()] (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ObjectUtilsTest]/[method:testToString_String_Supplier()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testResultValidation()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testCreate()] (0 ms)</li><li>org.apache.commons.lang3.text.StrBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrBuilderTest]/[method:testLang412Left()] (0 ms)</li><li>org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testSystemPropertiesLookup()] (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ObjectUtilsTest]/[method:testToString_Supplier_Supplier()] (0 ms)</li><li>org.apache.commons.lang3.text.StrBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrBuilderTest]/[method:testLang412Right()] (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ObjectUtilsTest]/[method:testDefaultIfNull()] (1 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testGetIfEmpty_StringStringSupplier()] (2 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testGetIfBlank_StringStringSupplier()] (1 ms)</li><li>org.apache.commons.lang3.text.StrBuilderAppendInsertTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrBuilderAppendInsertTest]/[method:testAppendFixedWidthPadRight()] (0 ms)</li><li>org.apache.commons.lang3.text.StrBuilderAppendInsertTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrBuilderAppendInsertTest]/[method:testAppendFixedWidthPadLeft()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetInt()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testCheckDefaults()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetLong()] (1 ms)</li><li>org.apache.commons.lang3.time.FastDatePrinterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDatePrinterTest]/[method:testTimeZoneAsZ()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetBoolean()] (2 ms)</li><li>org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormat()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormat_PrinterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormat_PrinterTest]/[method:testTimeZoneAsZ()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_getInstance_String_Locale()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testLANG_954()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_getInstance_String()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_getInstance_String_TimeZone()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testLANG_1267()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_getInstance_String_TimeZone_Locale()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testDateDefaults()] (0 ms)</li><li>org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormatCalendar()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_changeDefault_Locale_DateInstance()] (0 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testCheckDifferingStyles()] (1 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testTimeDateDefaults()] (0 ms)</li><li>org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testToLocale_3Part()] (2 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testTimeDefaults()] (8 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:test_changeDefault_Locale_DateTimeInstance()] (10 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetDoesNotThrow()] (32 ms)</li><li>org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormatUTC()] (60 ms)</li><li>org.apache.commons.lang3.time.FastDateFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormatTest]/[method:testParseSync()] (617 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testStampedLockNotExclusive()] (1503 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testReentrantReadWriteLockNotExclusive()] (1504 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testStampedLockExclusive()] (15020 ms)</li><li>org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testReentrantReadWriteLockExclusive()] (15021 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserHome()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmSpecificationVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmVendor()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetPathSeparator()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetFileSeparator()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmName()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmSpecificationVendor()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVendorUrl()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserLanguage()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaRuntimeVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaClassPath()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserTimezone()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserDir()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaSpecificationVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetOsArch()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaLibraryPath()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetAwtToolkit()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserCountry()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaClassVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaHome()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmInfo()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaRuntimeName()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetOsVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVersion()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVendor()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaIoTmpdir()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaVmSpecificationName()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaAwtGraphicsenv()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaSpecificationVendor()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaSpecificationName()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetOsName()] (0 ms)</li><li>org.apache.commons.lang3.ArrayUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayUtilsTest]/[method:testArraycopySupplier()] (1 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaExtDirs()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaAwtPrinterjob()] (1 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetUserName()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetFileEncoding()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetJavaEndorsedDirs()] (0 ms)</li><li>org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testSystemPropertiesLookupUpdatedProperty()] (0 ms)</li><li>org.apache.commons.lang3.SystemPropertiesTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemPropertiesTest]/[method:testGetLineSeparator()] (1 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemUtilsTest]/[method:testGetUserHome()] (0 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemUtilsTest]/[method:testGetJavaHome()] (0 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemUtilsTest]/[method:testGetJavaIoTmpDir()] (0 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemUtilsTest]/[method:testGetUserDir()] (0 ms)</li><li>org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testSystemPropertiesLookupReplacedProperties()] (0 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SystemUtilsTest]/[method:testGetUserName()] (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ObjectUtilsTest]/[method:testGetFirstNonNull()] (3 ms)</li><li>org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testGetProcessor()] (3 ms)</li><li>org.apache.commons.lang3.text.StrSubstitutorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrSubstitutorTest]/[method:testStaticReplaceSystemProperties()] (0 ms)</li><li>org.apache.commons.lang3.text.StrSubstitutorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrSubstitutorTest]/[method:testLANG1055()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.2
+
+</body>
+</html>

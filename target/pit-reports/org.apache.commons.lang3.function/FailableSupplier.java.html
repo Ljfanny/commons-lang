@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>FailableSupplier.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/*</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Licensed to the Apache Software Foundation (ASF) under one or more</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * contributor license agreements.  See the NOTICE file distributed with</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * this work for additional information regarding copyright ownership.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * The ASF licenses this file to You under the Apache License, Version 2.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * (the &#34;License&#34;); you may not use this file except in compliance with</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * the License.  You may obtain a copy of the License at</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *      http://www.apache.org/licenses/LICENSE-2.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Unless required by applicable law or agreed to in writing, software</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * distributed under the License is distributed on an &#34;AS IS&#34; BASIS,</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * See the License for the specific language governing permissions and</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * limitations under the License.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package org.apache.commons.lang3.function;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.function.Supplier;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * A functional interface like {@link Supplier} that declares a {@link Throwable}.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * @param &#60;T&#62; Return type.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * @param &#60;E&#62; The kind of thrown exception or error.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * @since 3.11</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@FunctionalInterface</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public interface FailableSupplier&#60;T, E extends Throwable&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Returns the singleton supplier that always returns null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * This supplier never throws an exception.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;/p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @since 3.14.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @SuppressWarnings(&#34;rawtypes&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_41'/>
+41
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_41'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    FailableSupplier NUL = () -&#62; null;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_43'/>
+43
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_43'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_44'/>
+44
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_44'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Returns the singleton supplier that always returns null.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_45'/>
+45
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_45'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_46'/>
+46
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_46'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * This supplier never throws an exception.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_47'/>
+47
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_47'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * &#60;/p&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_48'/>
+48
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_48'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_49'/>
+49
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_49'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @param &#60;T&#62; Supplied type.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @param &#60;E&#62; The kind of thrown exception or error.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @return The NUL singleton.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @since 3.14.0</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_53'/>
+53
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_53'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @SuppressWarnings(&#34;unchecked&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    static &#60;T, E extends Exception&#62; FailableSupplier&#60;T, E&#62; nul() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_56'/>
+56
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_56'>1</a>
+<span>
+1. nul : replaced return value with null for org/apache/commons/lang3/function/FailableSupplier::nul &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return NUL;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_59'/>
+59
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_59'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Supplies an object</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_61'/>
+61
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_61'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @return a result</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_63'/>
+63
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_63'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @throws E if the supplier fails</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_65'/>
+65
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_65'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    T get() throws E;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_66'/>
+66
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_66'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@12eeb3d0_56'>56</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@12eeb3d0_56'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nul<br/><b>Killed by : </b>org.apache.commons.lang3.function.FailableSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableSupplierTest]/[method:testNullSupplierException()]</span></span> replaced return value with null for org/apache/commons/lang3/function/FailableSupplier::nul &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.function.FailableSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableSupplierTest]/[method:testNullSupplierException()] (0 ms)</li><li>org.apache.commons.lang3.function.FailableSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableSupplierTest]/[method:testNullSupplierRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.function.FailableSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableSupplierTest]/[method:testNullSupplierDefaultException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitExecutorNullCallable()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitNullCallable()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testAddInitializerNullInit()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetBeforeStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testAddInitializerNullName()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testAddInitializerNullInit()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testIsStartedFalse()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitialize()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetActiveExecutorBeforeStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testGetThatReturnsNullFirstTime()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGetThatReturnsNullFirstTime()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerTest]/[method:testGetThatReturnsNullFirstTime()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetBeforeStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetActiveExecutorBeforeStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testIsStartedFalse()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.function.ObjectsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.ObjectsTest]/[method:testRequireNonNullObjectFailableSupplierString()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testGetConcurrent()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testGetConcurrent()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testAddInitializerNullName()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testWorkingCloser()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testSupplierThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGetConcurrent()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testIsStartedTrue()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testGetMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest]/[method:testisInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testSupplierThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testCloserThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testIsStartedTrue()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testSetExternalExecutorAfterStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testSupplierThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testWorkingCloser()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeNoChildren()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testWorkingCloser()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testSetExternalExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testInitialize()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testSupplierThrowsConcurrentException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testAddInitializerAfterStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testSupplierThrowsCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testSupplierThrowsCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testCloserThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testSetExternalExecutorAfterStart()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetActiveExecutorExternal()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testGetConcurrent()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeNoChildren()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testIsStartedAfterGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetActiveExecutorTemp()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testInitializeTempExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testSupplierThrowsConcurrentException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testCloserThrowsRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testInitialize()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetActiveExecutorTemp()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testSetExternalExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testSupplierThrowsConcurrentException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testStartMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testIsInitialized()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testIsStartedAfterGet()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetActiveExecutorExternal()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testSupplierThrowsCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testIsInitialized()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testCloserThrowsCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testInitializeTempExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testCloseWithRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testStartMultipleTimes()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testCloserThrowsCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testAddInitializerAfterStart()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testClose()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeRuntimeEx()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerTest]/[method:testGetInterruptedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeResultsIsSuccessfulTrue()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeResultsIsSuccessfulTrue()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testCloserThrowsCheckedException()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testNumberOfInitializeInvocations()] (7 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testCloseWithCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeChildWithExecutor()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerTest]/[method:testGetConcurrent()] (8 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeRuntimeEx()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetCheckedException()] (2 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGetConcurrent()] (8 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicInitializerSupplierTest]/[method:testGetConcurrent()] (7 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.BackgroundInitializerSupplierTest]/[method:testGetInterruptedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerFailableCloserTest]/[method:testGetConcurrent()] (7 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeResultsIsSuccessfulFalse()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeChildWithExecutor()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testGetConcurrent()] (9 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeEx()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testCloseWithRuntimeException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeExternalExec()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testIsInitialized()] (3 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testIsInitialized()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testCloseWithCheckedException()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeNested()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeNested()] (3 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeResultsIsSuccessfulFalse()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeEx()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testResultGetResultObjectUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testClose()] (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testResultInitializerNamesModify()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testResultIsExceptionUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testResultGetExceptionUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testResultGetInitializerUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testNumberOfInitializeInvocations()] (12 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeTempExec()] (2 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testResultIsExceptionUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testResultGetResultObjectUnknown()] (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testCloseWithTwoExceptions()] (2 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeExternalExec()] (3 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testInitializeTempExec()] (4 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testResultGetExceptionUnknown()] (4 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testResultInitializerNamesModify()] (5 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testResultGetInitializerUnknown()] (9 ms)</li><li>org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerAnonClassTest]/[method:testGetConcurrent()] (41 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.2
+
+</body>
+</html>
