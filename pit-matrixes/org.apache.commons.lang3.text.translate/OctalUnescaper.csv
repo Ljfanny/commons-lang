@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.text.translate.OctalUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.OctalUnescaperTest]/[method:testBetween()]
+44|changed conditional boundary,KILLED
+53|changed conditional boundary,KILLED
+61|Replaced integer subtraction with addition,
+63|Replaced integer addition with subtraction,KILLED
+64|Replaced integer addition with subtraction,KILLED
+65|Replaced integer addition with subtraction,KILLED
+66|Replaced integer addition with subtraction,KILLED
+71|negated conditional,KILLED
+73|negated conditional,KILLED
+78|removed call to java/io/Writer::write,KILLED
+79|replaced int return with 0 for org/apache/commons/lang3/text/translate/OctalUnescaper::translate,KILLED

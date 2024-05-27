@@ -1,0 +1,19 @@
+mutation,org.apache.commons.lang3.text.translate.UnicodeEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.UnicodeEscaperTest]/[method:testAbove()],org.apache.commons.lang3.text.translate.UnicodeEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.UnicodeEscaperTest]/[method:testBelow()],org.apache.commons.lang3.text.translate.UnicodeEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.UnicodeEscaperTest]/[method:testBetween()],none,org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testEscapeSurrogatePairsLang858()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeJava()]
+40|replaced return value with null for org/apache/commons/lang3/text/translate/UnicodeEscaper::above,KILLED,,,,,
+49|replaced return value with null for org/apache/commons/lang3/text/translate/UnicodeEscaper::below,,KILLED,,,,
+59|replaced return value with null for org/apache/commons/lang3/text/translate/UnicodeEscaper::between,,,KILLED,,,
+70|replaced return value with null for org/apache/commons/lang3/text/translate/UnicodeEscaper::outsideOf,KILLED,,,,,
+"112|replaced return value with """" for org/apache/commons/lang3/text/translate/UnicodeEscaper::toUtf16Escape",,,,NO_COVERAGE,,
+120|negated conditional,,,KILLED,,,
+121|changed conditional boundary,,,,,,
+122|replaced boolean return with true for org/apache/commons/lang3/text/translate/UnicodeEscaper::translate,,,KILLED,,,
+124|changed conditional boundary,KILLED,,,,,
+125|replaced boolean return with true for org/apache/commons/lang3/text/translate/UnicodeEscaper::translate,,KILLED,,,,
+129|changed conditional boundary,,,,,,
+130|removed call to java/io/Writer::write,,,,,KILLED,
+132|removed call to java/io/Writer::write,,,KILLED,,,
+133|Replaced Shift Right with Shift Left,,,,,,KILLED
+134|Replaced Shift Right with Shift Left,,,,,,KILLED
+135|Replaced Shift Right with Shift Left,,,KILLED,,,
+136|removed call to java/io/Writer::write,,,KILLED,,,
+138|replaced boolean return with false for org/apache/commons/lang3/text/translate/UnicodeEscaper::translate,,,KILLED,,,

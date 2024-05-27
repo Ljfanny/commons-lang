@@ -1,0 +1,15 @@
+mutation,org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testEmptyArrayGenerics()],org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testToString()],org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testOfNonNull()],org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testComparable1()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testEquals()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testNullTripleEquals()],org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testCompatibilityBetweenTriples()],org.apache.commons.lang3.tuple.TripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.TripleTest]/[method:testToStringCustom()]
+67|replaced return value with null for org/apache/commons/lang3/tuple/Triple::emptyArray,KILLED,,,,,,,
+85|replaced return value with null for org/apache/commons/lang3/tuple/Triple::of,,KILLED,,,,,,
+105|replaced return value with null for org/apache/commons/lang3/tuple/Triple::ofNonNull,,,KILLED,,,,,
+118|replaced int return with 0 for org/apache/commons/lang3/tuple/Triple::compareTo,,,,KILLED,,,,
+131|negated conditional,,,,,KILLED,,,
+132|replaced boolean return with false for org/apache/commons/lang3/tuple/Triple::equals,,,,,,KILLED,,
+134|negated conditional,,,,,,,KILLED,
+136|replaced boolean return with true for org/apache/commons/lang3/tuple/Triple::equals,,,,,KILLED,,,
+137|negated conditional,,,,,,,KILLED,
+138|negated conditional,,,,,,,KILLED,
+140|replaced boolean return with true for org/apache/commons/lang3/tuple/Triple::equals,,,,,KILLED,,,
+171|Replaced XOR with AND,,,,,,,,
+"181|replaced return value with """" for org/apache/commons/lang3/tuple/Triple::toString",,KILLED,,,,,,
+"196|replaced return value with """" for org/apache/commons/lang3/tuple/Triple::toString",,,,,,,,KILLED

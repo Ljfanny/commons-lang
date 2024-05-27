@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiPredicateAnd()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiPredicateNegate()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiPredicateOr()]
+36|replaced boolean return with true for org/apache/commons/lang3/function/FailableBiPredicate::lambda$static$0,KILLED,,
+40|replaced boolean return with false for org/apache/commons/lang3/function/FailableBiPredicate::lambda$static$1,KILLED,,
+52|replaced return value with null for org/apache/commons/lang3/function/FailableBiPredicate::falsePredicate,,KILLED,
+65|replaced return value with null for org/apache/commons/lang3/function/FailableBiPredicate::truePredicate,,KILLED,
+77|negated conditional,KILLED,,
+86|negated conditional,,KILLED,
+98|negated conditional,,,KILLED

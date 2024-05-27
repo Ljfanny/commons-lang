@@ -1,0 +1,7 @@
+mutation,org.apache.commons.lang3.event.EventUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventUtilsTest]/[method:testBindEventsToMethod()]
+62|replaced boolean return with true for org/apache/commons/lang3/event/EventUtils$EventBindingInvocationHandler::hasMatchingParametersMethod,KILLED
+76|negated conditional,KILLED
+77|negated conditional,KILLED
+78|replaced return value with null for org/apache/commons/lang3/event/EventUtils$EventBindingInvocationHandler::invoke,
+80|replaced return value with null for org/apache/commons/lang3/event/EventUtils$EventBindingInvocationHandler::invoke,
+127|removed call to org/apache/commons/lang3/event/EventUtils::addEventListener,KILLED

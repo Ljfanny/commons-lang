@@ -1,0 +1,26 @@
+mutation,org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAcceptBiConsumer()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAcceptConsumer()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testApplyBiFunction()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testFunction()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testBiConsumer()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testBiFunction()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAsCallable()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAsConsumer()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testPredicate()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAsRunnable()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testAsSupplier()],org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testGetFromSupplier()],org.apache.commons.lang3.StreamsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StreamsTest]/[method:testSimpleStreamFilter()],org.apache.commons.lang3.StreamsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StreamsTest]/[method:testSimpleStreamMap()],none,org.apache.commons.lang3.FunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.FunctionsTest]/[method:testTryWithResources()]
+297|removed call to org/apache/commons/lang3/Functions::run,KILLED,,,,,,,,,,,,,,,
+309|removed call to org/apache/commons/lang3/Functions::run,,KILLED,,,,,,,,,,,,,,
+326|replaced return value with null for org/apache/commons/lang3/Functions::apply,,,KILLED,,,,,,,,,,,,,
+340|replaced return value with null for org/apache/commons/lang3/Functions::apply,,,,KILLED,,,,,,,,,,,,
+353|replaced return value with null for org/apache/commons/lang3/Functions::asBiConsumer,,,,,KILLED,,,,,,,,,,,
+367|replaced return value with null for org/apache/commons/lang3/Functions::asBiFunction,,,,,,KILLED,,,,,,,,,,
+380|replaced boolean return with false for org/apache/commons/lang3/Functions::lambda$asBiPredicate$6,,,,,,,,,,,,,,,,
+392|replaced return value with null for org/apache/commons/lang3/Functions::asCallable,,,,,,,KILLED,,,,,,,,,
+404|removed call to org/apache/commons/lang3/Functions::accept,,,,,,,,KILLED,,,,,,,,
+417|replaced return value with null for org/apache/commons/lang3/Functions::lambda$asFunction$9,,,,KILLED,,,,,,,,,,,,
+429|replaced return value with null for org/apache/commons/lang3/Functions::asPredicate,,,,,,,,,KILLED,,,,,,,
+440|replaced return value with null for org/apache/commons/lang3/Functions::asRunnable,,,,,,,,,,KILLED,,,,,,
+452|replaced return value with null for org/apache/commons/lang3/Functions::asSupplier,,,,,,,,,,,KILLED,,,,,
+464|replaced return value with null for org/apache/commons/lang3/Functions::call,,,,,,,,,,,,KILLED,,,,
+478|replaced return value with null for org/apache/commons/lang3/Functions::get,,,,,,,,,,,,KILLED,,,,
+493|replaced boolean return with false for org/apache/commons/lang3/Functions::getAsBoolean,,,,,,,,,,,,,KILLED,,,
+526|negated conditional,,,,,,,,,,KILLED,,,,,,
+540|removed call to org/apache/commons/lang3/Functions$FailableRunnable::run,,,,,,,,,,KILLED,,,,,,
+559|replaced return value with null for org/apache/commons/lang3/Functions::stream,,,,,,,,,,,,,,KILLED,,
+574|replaced return value with null for org/apache/commons/lang3/Functions::stream,,,,,,,,,,,,,,,NO_COVERAGE,
+590|replaced boolean return with true for org/apache/commons/lang3/Functions::test,,,,,,,,,,,,,,,,
+603|replaced boolean return with true for org/apache/commons/lang3/Functions::lambda$test$14,,,,,,,,,,,,,KILLED,,,
+631|removed call to java/util/Arrays::setAll,,,,,,,,,,,,,,,,KILLED
+632|removed call to org/apache/commons/lang3/function/Failable::tryWithResources,,,,,,,,,,,,,,,,KILLED
+656|removed call to org/apache/commons/lang3/Functions::tryWithResources,,,,,,,,,,,,,,,,KILLED

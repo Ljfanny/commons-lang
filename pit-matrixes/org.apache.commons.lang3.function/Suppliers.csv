@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.function.SuppliersTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.SuppliersTest]/[method:testGet()]
+46|negated conditional,KILLED
+61|replaced return value with null for org/apache/commons/lang3/function/Suppliers::nul,

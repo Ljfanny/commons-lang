@@ -1,0 +1,18 @@
+mutation,org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testLANG1462()],org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormatCalendar()],org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testTimeISO()],org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormat()],none,org.apache.commons.lang3.time.DateFormatUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.DateFormatUtilsTest]/[method:testFormatUTC()]
+"211|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",KILLED,,,,,
+"226|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,KILLED,,,,
+"240|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,KILLED,,,
+"256|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",KILLED,,,,,
+"267|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,KILLED,,
+"279|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,KILLED,,
+"291|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,KILLED,,,
+"305|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,KILLED,,
+"316|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,KILLED,,
+"328|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,KILLED,,
+"340|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,KILLED,,,
+"353|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::format",,,,,NO_COVERAGE,
+"364|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::formatUTC",,,,,,KILLED
+"376|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::formatUTC",,,,,,KILLED
+"387|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::formatUTC",,,,,,KILLED
+"399|replaced return value with """" for org/apache/commons/lang3/time/DateFormatUtils::formatUTC",,,,,,KILLED
+403|replaced return value with null for org/apache/commons/lang3/time/DateFormatUtils::getTimeZone,KILLED,,,,,

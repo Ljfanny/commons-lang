@@ -1,0 +1,2 @@
+mutation,org.apache.commons.lang3.function.FailableSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableSupplierTest]/[method:testNullSupplierException()]
+56|replaced return value with null for org/apache/commons/lang3/function/FailableSupplier::nul,KILLED

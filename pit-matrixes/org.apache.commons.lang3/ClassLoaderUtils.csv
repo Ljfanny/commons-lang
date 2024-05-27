@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.ClassLoaderUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassLoaderUtilsTest]/[method:testGetSystemURLs()],org.apache.commons.lang3.ClassLoaderUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassLoaderUtilsTest]/[method:testGetThreadURLs()],org.apache.commons.lang3.ClassLoaderUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassLoaderUtilsTest]/[method:testToString_ClassLoader()]
+41|replaced return value with null for org/apache/commons/lang3/ClassLoaderUtils::getSystemURLs,KILLED,,
+51|replaced return value with null for org/apache/commons/lang3/ClassLoaderUtils::getThreadURLs,,KILLED,
+55|replaced return value with null for org/apache/commons/lang3/ClassLoaderUtils::getURLs,KILLED,,
+65|negated conditional,,,KILLED
+"66|replaced return value with """" for org/apache/commons/lang3/ClassLoaderUtils::toString",,,KILLED
+"68|replaced return value with """" for org/apache/commons/lang3/ClassLoaderUtils::toString",,,KILLED
+78|negated conditional,,,KILLED

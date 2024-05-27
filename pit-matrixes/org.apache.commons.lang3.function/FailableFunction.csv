@@ -1,0 +1,6 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testFunctionFunction()],none,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testFunctionCompose()]
+49|replaced return value with null for org/apache/commons/lang3/function/FailableFunction::function,KILLED,,
+60|replaced return value with null for org/apache/commons/lang3/function/FailableFunction::lambda$identity$1,,NO_COVERAGE,
+73|replaced return value with null for org/apache/commons/lang3/function/FailableFunction::nop,,,KILLED
+86|replaced return value with null for org/apache/commons/lang3/function/FailableFunction::lambda$andThen$2,KILLED,,
+109|replaced return value with null for org/apache/commons/lang3/function/FailableFunction::lambda$compose$3,,NO_COVERAGE,

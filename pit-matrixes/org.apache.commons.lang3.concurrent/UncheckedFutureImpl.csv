@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.concurrent.UncheckedFutureTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.UncheckedFutureTest]/[method:testOnFuture()],none
+43|replaced return value with null for org/apache/commons/lang3/concurrent/UncheckedFutureImpl::get,KILLED,
+54|replaced return value with null for org/apache/commons/lang3/concurrent/UncheckedFutureImpl::get,,NO_COVERAGE

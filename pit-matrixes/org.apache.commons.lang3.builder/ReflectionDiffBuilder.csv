@@ -1,0 +1,27 @@
+mutation,org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:testGetExcludeFieldNamesWithNullExcludedFieldNames()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:testGetExcludeFieldNamesWithNullValuesInExcludedFieldNames()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:testGetExcludeFieldNamesWithNullValuesInExcludedFieldNamesCtor()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:testGetExcludeFieldNamesWithNullExcludedFieldNamesCtor()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:test_primitive_difference()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:test_no_differences_excluded_field()],org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.ReflectionDiffBuilderTest]/[method:test_no_differences_inheritance()]
+95|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder$Builder::build,KILLED,,,,,,
+106|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder$Builder::setDiffBuilder,KILLED,,,,,,
+117|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder$Builder::setExcludeFieldNames,,KILLED,,,,,
+130|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::builder,KILLED,,,,,,
+134|negated conditional,,,KILLED,,,,
+135|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::toExcludeFieldNames,,,,KILLED,,,
+138|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::toExcludeFieldNames,,,KILLED,,,,
+173|negated conditional,,,,,KILLED,,
+174|replaced boolean return with true for org/apache/commons/lang3/builder/ReflectionDiffBuilder::accept,,,,,,,
+176|negated conditional,,,,,KILLED,,
+177|replaced boolean return with true for org/apache/commons/lang3/builder/ReflectionDiffBuilder::accept,,,,,,,
+179|negated conditional,,,,,KILLED,,
+180|replaced boolean return with true for org/apache/commons/lang3/builder/ReflectionDiffBuilder::accept,,,,,,,
+182|changed conditional boundary,,,,,,KILLED,
+184|replaced boolean return with true for org/apache/commons/lang3/builder/ReflectionDiffBuilder::accept,,,,,,KILLED,
+186|negated conditional,,,,,KILLED,,
+191|negated conditional,,,,,KILLED,,
+205|negated conditional,,,,,KILLED,,
+206|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::build,,,,,,,KILLED
+209|removed call to org/apache/commons/lang3/builder/ReflectionDiffBuilder::appendFields,,,,,KILLED,,
+210|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::build,,,,,KILLED,,
+220|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::getExcludeFieldNames,KILLED,,,,,,
+224|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::getLeft,,,,,,,KILLED
+228|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::getRight,,,,,,,KILLED
+232|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::readField,,,,,KILLED,,
+246|replaced return value with null for org/apache/commons/lang3/builder/ReflectionDiffBuilder::setExcludeFieldNames,,,,,,,KILLED

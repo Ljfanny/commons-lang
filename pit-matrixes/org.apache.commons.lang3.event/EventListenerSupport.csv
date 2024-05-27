@@ -1,0 +1,16 @@
+mutation,org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testThrowingListener()],org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testAddListenerNoDuplicates()],org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testAddNullListener()],org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testEventDispatchOrder()],org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testThrowingListenerContinues()],org.apache.commons.lang3.event.EventListenerSupportTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.event.EventListenerSupportTest]/[method:testSerialization()]
+108|removed call to org/apache/commons/lang3/function/FailableConsumer::accept,KILLED,,,,,
+129|removed call to org/apache/commons/lang3/event/EventListenerSupport$ProxyInvocationHandler::handle,KILLED,,,,,
+156|replaced return value with null for org/apache/commons/lang3/event/EventListenerSupport::create,,KILLED,,,,
+217|removed call to org/apache/commons/lang3/Validate::isTrue,,,,,,
+219|removed call to org/apache/commons/lang3/event/EventListenerSupport::initializeTransientFields,,KILLED,,,,
+235|removed call to org/apache/commons/lang3/event/EventListenerSupport::addListener,,,KILLED,,,
+251|negated conditional,,KILLED,,,,
+262|replaced return value with null for org/apache/commons/lang3/event/EventListenerSupport::createInvocationHandler,,,KILLED,,,
+284|replaced return value with null for org/apache/commons/lang3/event/EventListenerSupport::fire,,,,KILLED,,
+293|replaced int return with 0 for org/apache/commons/lang3/event/EventListenerSupport::getListenerCount,,,,,KILLED,
+303|replaced return value with null for org/apache/commons/lang3/event/EventListenerSupport::getListeners,,KILLED,,,,
+314|removed call to org/apache/commons/lang3/event/EventListenerSupport::createProxy,,,,KILLED,,
+331|removed call to org/apache/commons/lang3/event/EventListenerSupport::initializeTransientFields,,,,,,KILLED
+359|removed call to java/io/ObjectOutputStream::writeObject,,,,,,KILLED
+370|removed call to java/io/ObjectOutputStream::writeObject,,,,,,KILLED

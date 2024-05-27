@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitNullCallable()],org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitExecutorNullCallable()],none,org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest]/[method:testInitialize()]
+78|removed call to org/apache/commons/lang3/concurrent/CallableBackgroundInitializer::checkCallable,KILLED,,,
+95|removed call to org/apache/commons/lang3/concurrent/CallableBackgroundInitializer::checkCallable,,KILLED,,
+116|replaced return value with null for org/apache/commons/lang3/concurrent/CallableBackgroundInitializer::getTypedException,,,NO_COVERAGE,
+129|replaced return value with null for org/apache/commons/lang3/concurrent/CallableBackgroundInitializer::initialize,,,,KILLED

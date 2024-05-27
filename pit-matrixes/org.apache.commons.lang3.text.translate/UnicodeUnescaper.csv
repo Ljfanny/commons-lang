@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.text.translate.UnicodeUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.UnicodeUnescaperTest]/[method:testUPlus()],org.apache.commons.lang3.text.translate.UnicodeUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.UnicodeUnescaperTest]/[method:testUuuuu()]
+40|negated conditional,KILLED,
+43|Replaced integer addition with subtraction,KILLED,
+44|Changed increment from 1 to -1,,KILLED
+47|negated conditional,KILLED,
+48|Changed increment from 1 to -1,KILLED,
+51|changed conditional boundary,KILLED,
+53|Replaced integer addition with subtraction,KILLED,
+57|removed call to java/io/Writer::write,KILLED,
+61|Replaced integer addition with subtraction,KILLED,

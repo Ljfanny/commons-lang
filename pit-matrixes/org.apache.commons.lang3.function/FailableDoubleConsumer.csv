@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testDoubleConsumerAndThen()]
+44|replaced return value with null for org/apache/commons/lang3/function/FailableDoubleConsumer::nop,KILLED
+64|replaced return value with null for org/apache/commons/lang3/function/FailableDoubleConsumer::andThen,KILLED
+65|removed call to org/apache/commons/lang3/function/FailableDoubleConsumer::accept,KILLED
+66|removed call to org/apache/commons/lang3/function/FailableDoubleConsumer::accept,KILLED

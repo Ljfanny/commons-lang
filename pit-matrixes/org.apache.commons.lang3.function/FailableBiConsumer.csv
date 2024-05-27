@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiConsumerAndThen()]
+48|replaced return value with null for org/apache/commons/lang3/function/FailableBiConsumer::nop,KILLED
+69|replaced return value with null for org/apache/commons/lang3/function/FailableBiConsumer::andThen,KILLED
+70|removed call to org/apache/commons/lang3/function/FailableBiConsumer::accept,KILLED
+71|removed call to org/apache/commons/lang3/function/FailableBiConsumer::accept,KILLED

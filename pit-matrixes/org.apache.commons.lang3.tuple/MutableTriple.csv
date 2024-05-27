@@ -1,0 +1,7 @@
+mutation,org.apache.commons.lang3.tuple.MutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutableTripleTest]/[method:testEmptyArrayGenerics()],org.apache.commons.lang3.tuple.MutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutableTripleTest]/[method:testHashCode()],org.apache.commons.lang3.tuple.MutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutableTripleTest]/[method:testOfNonNull()],org.apache.commons.lang3.tuple.MutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutableTripleTest]/[method:testMutate()]
+59|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::emptyArray,KILLED,,,
+77|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::of,,KILLED,,
+97|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::ofNonNull,,,KILLED,
+132|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::getLeft,,,,KILLED
+140|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::getMiddle,,,,KILLED
+148|replaced return value with null for org/apache/commons/lang3/tuple/MutableTriple::getRight,,,,KILLED

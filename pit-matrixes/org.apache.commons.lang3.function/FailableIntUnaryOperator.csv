@@ -1,0 +1,5 @@
+mutation,none,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testIntUnaryOperatorAndThen()]
+42|replaced int return with 0 for org/apache/commons/lang3/function/FailableIntUnaryOperator::lambda$identity$1,NO_COVERAGE,
+53|replaced return value with null for org/apache/commons/lang3/function/FailableIntUnaryOperator::nop,,KILLED
+66|replaced return value with null for org/apache/commons/lang3/function/FailableIntUnaryOperator::andThen,,KILLED
+88|replaced int return with 0 for org/apache/commons/lang3/function/FailableIntUnaryOperator::lambda$compose$3,NO_COVERAGE,

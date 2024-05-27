@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.text.translate.LookupTranslatorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.LookupTranslatorTest]/[method:testBasicLookup()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testStandaloneAmphersand()]
+54|negated conditional,KILLED,
+59|changed conditional boundary,,
+62|negated conditional,KILLED,
+77|negated conditional,KILLED,
+79|changed conditional boundary,,
+80|Replaced integer subtraction with addition,,KILLED
+83|changed conditional boundary,KILLED,
+84|Replaced integer addition with subtraction,KILLED,
+87|negated conditional,KILLED,
+88|removed call to java/io/Writer::write,KILLED,
+89|replaced int return with 0 for org/apache/commons/lang3/text/translate/LookupTranslator::translate,KILLED,

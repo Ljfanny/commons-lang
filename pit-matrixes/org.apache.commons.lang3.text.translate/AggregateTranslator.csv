@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeHtmlVersions()]
+56|negated conditional,KILLED
+57|replaced int return with 0 for org/apache/commons/lang3/text/translate/AggregateTranslator::translate,KILLED

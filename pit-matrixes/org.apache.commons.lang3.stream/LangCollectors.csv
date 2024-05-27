@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.stream.LangCollectorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.stream.LangCollectorsTest]/[method:testJoiningStrings3Args()],org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testJoin_Objects()]
+68|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors$SimpleCollector::accumulator,KILLED,
+73|replaced return value with Collections.emptySet for org/apache/commons/lang3/stream/LangCollectors$SimpleCollector::characteristics,,
+78|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors$SimpleCollector::combiner,,
+83|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors$SimpleCollector::finisher,KILLED,
+88|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors$SimpleCollector::supplier,KILLED,
+112|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors::joining,,
+134|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors::joining,,
+161|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors::joining,,
+189|replaced return value with null for org/apache/commons/lang3/stream/LangCollectors::joining,,KILLED

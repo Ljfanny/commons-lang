@@ -1,0 +1,28 @@
+mutation,org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testContainsAny_StringString()],org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testContainsAny_StringStringarray()],org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testCount_StringString()],org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testDelete_StringString()],org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testKeep_StringString()],org.apache.commons.lang3.CharSetUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharSetUtilsTest]/[method:testSqueeze_StringString()]
+54|negated conditional,KILLED,,,,,
+55|replaced boolean return with true for org/apache/commons/lang3/CharSetUtils::containsAny,KILLED,,,,,
+59|negated conditional,,KILLED,,,,
+60|replaced boolean return with false for org/apache/commons/lang3/CharSetUtils::containsAny,KILLED,,,,,
+63|replaced boolean return with true for org/apache/commons/lang3/CharSetUtils::containsAny,,KILLED,,,,
+85|negated conditional,,,KILLED,,,
+91|negated conditional,,,KILLED,,,
+92|Changed increment from 1 to -1,,,KILLED,,,
+95|replaced int return with 0 for org/apache/commons/lang3/CharSetUtils::count,,,KILLED,,,
+106|replaced boolean return with false for org/apache/commons/lang3/CharSetUtils::deepEmpty,,KILLED,,,,
+128|negated conditional,,,,KILLED,,
+"129|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::delete",,,,KILLED,,
+"131|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::delete",,,,KILLED,,
+154|negated conditional,,,,,KILLED,
+"155|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::keep",,,,,KILLED,
+157|negated conditional,,,,,KILLED,
+"160|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::keep",,,,,KILLED,
+176|negated conditional,,,,,KILLED,
+"180|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::modify",,,,,KILLED,
+202|negated conditional,,,,,,KILLED
+"203|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::squeeze",,,,,,KILLED
+214|changed conditional boundary,,,,,,KILLED
+216|negated conditional,,,,,,KILLED
+217|negated conditional,,,,,,KILLED
+220|negated conditional,,,,,,KILLED
+221|negated conditional,,,,,,KILLED
+"231|replaced return value with """" for org/apache/commons/lang3/CharSetUtils::squeeze",,,,,,KILLED

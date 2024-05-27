@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testIntPredicateNegate()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testIntPredicateAnd()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testIntPredicateOr()]
+34|replaced boolean return with true for org/apache/commons/lang3/function/FailableIntPredicate::lambda$static$0,KILLED,,
+38|replaced boolean return with false for org/apache/commons/lang3/function/FailableIntPredicate::lambda$static$1,KILLED,,
+48|replaced return value with null for org/apache/commons/lang3/function/FailableIntPredicate::falsePredicate,KILLED,,
+59|replaced return value with null for org/apache/commons/lang3/function/FailableIntPredicate::truePredicate,KILLED,,
+71|replaced boolean return with true for org/apache/commons/lang3/function/FailableIntPredicate::lambda$and$2,,KILLED,
+80|replaced boolean return with true for org/apache/commons/lang3/function/FailableIntPredicate::lambda$negate$3,KILLED,,
+92|replaced boolean return with true for org/apache/commons/lang3/function/FailableIntPredicate::lambda$or$4,,,KILLED

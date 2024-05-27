@@ -1,0 +1,17 @@
+mutation,org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testCreate()],org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest]/[method:testResultValidation()],none
+146|removed call to org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::lockAcceptUnlock,KILLED,,
+167|removed call to org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::lockAcceptUnlock,KILLED,,
+206|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::applyReadLocked,,KILLED,
+233|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::applyWriteLocked,,KILLED,
+242|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::getLock,,,NO_COVERAGE
+251|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::getObject,,,NO_COVERAGE
+267|removed call to java/util/concurrent/locks/Lock::lock,KILLED,,
+269|negated conditional,KILLED,,
+270|removed call to org/apache/commons/lang3/function/FailableConsumer::accept,KILLED,,
+275|removed call to java/util/concurrent/locks/Lock::unlock,,,TIMED_OUT
+296|removed call to java/util/concurrent/locks/Lock::lock,,KILLED,
+298|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor::lockApplyUnlock,,KILLED,
+302|removed call to java/util/concurrent/locks/Lock::unlock,,,TIMED_OUT
+364|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors::create,KILLED,,
+375|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors::reentrantReadWriteLockVisitor,,,TIMED_OUT
+386|replaced return value with null for org/apache/commons/lang3/concurrent/locks/LockingVisitors::stampedLockVisitor,,KILLED,

@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testFailableBiFunctionNop()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiFunctionAndThen()]
+51|replaced return value with null for org/apache/commons/lang3/function/FailableBiFunction::nop,KILLED,
+64|replaced return value with null for org/apache/commons/lang3/function/FailableBiFunction::andThen,,KILLED

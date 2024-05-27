@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testGetProcessor()],org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testIs32BitJVM()]
+50|negated conditional,,
+64|removed call to org/apache/commons/lang3/ArchUtils::addProcessor,,
+77|replaced return value with null for org/apache/commons/lang3/ArchUtils::getProcessor,KILLED,
+88|replaced return value with null for org/apache/commons/lang3/ArchUtils::getProcessor,,KILLED

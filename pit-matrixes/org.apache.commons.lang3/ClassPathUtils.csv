@@ -1,0 +1,7 @@
+mutation,org.apache.commons.lang3.ClassPathUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassPathUtilsTest]/[method:testPackageToPath()],org.apache.commons.lang3.ClassPathUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassPathUtilsTest]/[method:testPathToPackage()],org.apache.commons.lang3.ClassPathUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassPathUtilsTest]/[method:testToFullyQualifiedNameClassString()],org.apache.commons.lang3.ClassPathUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassPathUtilsTest]/[method:testToFullyQualifiedNamePackageString()],org.apache.commons.lang3.ClassPathUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ClassPathUtilsTest]/[method:testToFullyQualifiedPathClass()]
+"42|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::packageToPath",KILLED,,,,
+"54|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::pathToPackage",,KILLED,,,
+"76|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::toFullyQualifiedName",,,KILLED,,
+"98|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::toFullyQualifiedName",,,,KILLED,
+"120|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::toFullyQualifiedPath",,,,,KILLED
+"142|replaced return value with """" for org/apache/commons/lang3/ClassPathUtils::toFullyQualifiedPath",,,,,KILLED

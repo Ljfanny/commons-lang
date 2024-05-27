@@ -1,0 +1,48 @@
+mutation,org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testAvailableLocaleList()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testIsLanguageUndetermined()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testCountriesByLanguage()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testIsAvailableLocale()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testToLocale_2Part()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testThreeCharsLocale()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testLanguagesByCountry()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testLocaleLookupList_Locale()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[test-template:testParseAllLocales(java.util.Locale)]/[test-template-invocation:#78],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[test-template:testParseAllLocales(java.util.Locale)]/[test-template-invocation:#10],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testLang328()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[test-template:testParseAllLocales(java.util.Locale)]/[test-template-invocation:#112],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testLanguageAndUNM49Numeric3AreaCodeLang1312()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[test-template:testToLocales(java.util.Locale)]/[test-template-invocation:#29],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testToLocale_Locale_defaults()],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[test-template:testParseAllLocales(java.util.Locale)]/[test-template-invocation:#1],org.apache.commons.lang3.LocaleUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LocaleUtilsTest]/[method:testLang865()]
+78|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::availableLocaleList,KILLED,,,,,,,,,,,,,,,,
+82|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::availableLocaleList,,,,,,,,,,,,,,,,,
+95|replaced return value with Collections.emptySet for org/apache/commons/lang3/LocaleUtils::availableLocaleSet,,KILLED,,,,,,,,,,,,,,,
+108|negated conditional,,,KILLED,,,,,,,,,,,,,,
+111|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::lambda$countriesByLanguage$1,,,,,,,,,,,,,,,,,
+112|replaced boolean return with true for org/apache/commons/lang3/LocaleUtils::lambda$null$0,,,,,,,,,,,,,,,,,
+122|replaced boolean return with true for org/apache/commons/lang3/LocaleUtils::isAvailableLocale,,,,KILLED,,,,,,,,,,,,,
+132|replaced boolean return with true for org/apache/commons/lang3/LocaleUtils::isISO3166CountryCode,,,,,KILLED,,,,,,,,,,,,
+142|negated conditional,,,,,,KILLED,,,,,,,,,,,
+158|replaced boolean return with true for org/apache/commons/lang3/LocaleUtils::isLanguageUndetermined,,KILLED,,,,,,,,,,,,,,,
+168|replaced boolean return with true for org/apache/commons/lang3/LocaleUtils::isNumericAreaCode,,,,,KILLED,,,,,,,,,,,,
+181|negated conditional,,,,,,,KILLED,,,,,,,,,,
+184|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::languagesByCountry,,,,,,,KILLED,,,,,,,,,,
+185|negated conditional,,,,,,,,,,,,,,,,,
+201|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::localeLookupList,,,,,,,,KILLED,,,,,,,,,
+223|negated conditional,,,,,,,,KILLED,,,,,,,,,
+225|negated conditional,,,,,,,,KILLED,,,,,,,,,
+228|negated conditional,,,,,,,,KILLED,,,,,,,,,
+231|negated conditional,,,,,,,,KILLED,,,,,,,,,
+235|replaced return value with Collections.emptyList for org/apache/commons/lang3/LocaleUtils::localeLookupList,,,,,,,,KILLED,,,,,,,,,
+246|negated conditional,,,,,,,,,KILLED,,,,,,,,
+247|replaced return value with null for org/apache/commons/lang3/LocaleUtils::parseLocale,,,,,,,,,,KILLED,,,,,,,
+250|negated conditional,,,,,,,,,,,KILLED,,,,,,
+254|negated conditional,,,,,,,,,,,KILLED,,,,,,
+256|negated conditional,,,,,,,,,,,,KILLED,,,,,
+257|negated conditional,,,,,,,,,,,,,KILLED,,,,
+258|replaced return value with null for org/apache/commons/lang3/LocaleUtils::parseLocale,,,,,,,,,,,,KILLED,,,,,
+260|negated conditional,,,,,,,,,,,KILLED,,,,,,
+263|negated conditional,,,,,,,,,,,KILLED,,,,,,
+264|negated conditional,,,,,,,,,,,KILLED,,,,,,
+265|negated conditional,,,,,,,,,,,KILLED,,,,,,
+266|replaced return value with null for org/apache/commons/lang3/LocaleUtils::parseLocale,,,,,,,,,,,KILLED,,,,,,
+280|replaced return value with null for org/apache/commons/lang3/LocaleUtils::toLocale,,,,,,,,,,,,,,KILLED,,,
+315|negated conditional,,,,,,,,,,,,,,,KILLED,,
+319|negated conditional,,,,,,,,,,,,,,,,KILLED,
+320|replaced return value with null for org/apache/commons/lang3/LocaleUtils::toLocale,,,,,,,,,,,,,,,,KILLED,
+322|negated conditional,,,,,,,,,KILLED,,,,,,,,
+326|negated conditional,,,,,,,,,KILLED,,,,,,,,
+330|negated conditional,,,,,,,,,KILLED,,,,,,,,
+331|changed conditional boundary,,,,,,,,,,,,,,,,,KILLED
+336|negated conditional,,,,,,,,,,,,,,,,,KILLED
+339|negated conditional,,,,,,,,,,,,,,,,,KILLED
+340|replaced return value with null for org/apache/commons/lang3/LocaleUtils::toLocale,,,,,,,,,,,,,,,,,KILLED
+342|changed conditional boundary,,,,,,,,,,,,,,,,,KILLED
+345|negated conditional,,,,,,,,,,,,,,,,,KILLED
+348|replaced return value with null for org/apache/commons/lang3/LocaleUtils::toLocale,,,,,,,,,,,,,,,,,KILLED
+351|replaced return value with null for org/apache/commons/lang3/LocaleUtils::toLocale,,,,,,,,,KILLED,,,,,,,,

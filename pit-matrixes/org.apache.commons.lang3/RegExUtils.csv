@@ -1,0 +1,23 @@
+mutation,org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testDotAll()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testDotAllMatcher()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testRemoveAll_StringPattern()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testRemoveAll_StringString()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testRemoveFirst_StringPattern()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testRemoveFirst_StringString()],org.apache.commons.lang3.RegExUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.RegExUtilsTest]/[method:testRemovePattern_StringString()]
+37|replaced return value with null for org/apache/commons/lang3/RegExUtils::dotAll,KILLED,,,,,,
+50|replaced return value with null for org/apache/commons/lang3/RegExUtils::dotAllMatcher,,KILLED,,,,,
+"86|replaced return value with """" for org/apache/commons/lang3/RegExUtils::removeAll",,,KILLED,,,,
+"132|replaced return value with """" for org/apache/commons/lang3/RegExUtils::removeAll",,,,KILLED,,,
+"168|replaced return value with """" for org/apache/commons/lang3/RegExUtils::removeFirst",,,,,KILLED,,
+"213|replaced return value with """" for org/apache/commons/lang3/RegExUtils::removeFirst",,,,,,KILLED,
+"244|replaced return value with """" for org/apache/commons/lang3/RegExUtils::removePattern",,,,,,,KILLED
+284|negated conditional,,,KILLED,,,,
+"285|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceAll",,,KILLED,,,,
+"287|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceAll",,,KILLED,,,,
+338|negated conditional,,,,KILLED,,,
+"339|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceAll",,,,KILLED,,,
+"341|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceAll",,,,KILLED,,,
+381|negated conditional,,,,,KILLED,,
+"382|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceFirst",,,,,KILLED,,
+"384|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceFirst",,,,,KILLED,,
+433|negated conditional,,,,,,KILLED,
+"434|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceFirst",,,,,,KILLED,
+"436|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replaceFirst",,,,,,KILLED,
+477|negated conditional,,,,,,,KILLED
+"478|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replacePattern",,,,,,,KILLED
+"480|replaced return value with """" for org/apache/commons/lang3/RegExUtils::replacePattern",,,,,,,KILLED

@@ -1,0 +1,20 @@
+mutation,org.apache.commons.lang3.reflect.ConstructorUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.ConstructorUtilsTest]/[method:testGetAccessibleConstructorFromDescription()],org.apache.commons.lang3.reflect.ConstructorUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.ConstructorUtilsTest]/[method:testGetMatchingAccessibleMethod()],org.apache.commons.lang3.reflect.ConstructorUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.ConstructorUtilsTest]/[method:testNullArgument()],org.apache.commons.lang3.reflect.ConstructorUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.ConstructorUtilsTest]/[method:testVarArgsUnboxing()],org.apache.commons.lang3.reflect.ConstructorUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.ConstructorUtilsTest]/[method:testInvokeExactConstructor()]
+66|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::getAccessibleConstructor,KILLED,,,,
+85|negated conditional,KILLED,,,,
+86|negated conditional,KILLED,,,,
+113|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::getMatchingAccessibleConstructor,,KILLED,,,
+127|negated conditional,,,KILLED,,
+130|negated conditional,,,KILLED,,
+132|negated conditional,,KILLED,,,
+141|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::getMatchingAccessibleConstructor,,,KILLED,,
+167|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::invokeConstructor,,,,KILLED,
+196|negated conditional,,,,KILLED,
+200|negated conditional,,,,KILLED,
+204|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::invokeConstructor,,,,KILLED,
+230|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::invokeExactConstructor,,,,,KILLED
+259|negated conditional,,,,,KILLED
+262|replaced return value with null for org/apache/commons/lang3/reflect/ConstructorUtils::invokeExactConstructor,,,,,KILLED
+274|negated conditional,KILLED,,,,
+275|negated conditional,KILLED,,,,
+276|replaced boolean return with true for org/apache/commons/lang3/reflect/ConstructorUtils::isAccessible,KILLED,,,,
+280|replaced boolean return with false for org/apache/commons/lang3/reflect/ConstructorUtils::isAccessible,KILLED,,,,

@@ -1,0 +1,21 @@
+mutation,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest]/[method:testOutOfBounds()],org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest]/[method:testUnfinishedEntity()],org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest]/[method:testSupplementaryUnescaping()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testUnescapeHexCharsHtml()]
+78|changed conditional boundary,KILLED,,,
+92|replaced boolean return with true for org/apache/commons/lang3/text/translate/NumericEntityUnescaper::isSet,,KILLED,,
+102|negated conditional,,,KILLED,
+103|Replaced integer addition with subtraction,,,KILLED,
+107|negated conditional,,,KILLED,
+108|Changed increment from 1 to -1,,KILLED,,
+112|negated conditional,,KILLED,,
+119|changed conditional boundary,,KILLED,,
+120|negated conditional,,,KILLED,
+121|changed conditional boundary,,,,KILLED
+125|negated conditional,,,KILLED,
+127|negated conditional,,,KILLED,
+128|negated conditional,,KILLED,,
+131|negated conditional,,KILLED,,
+138|negated conditional,,,KILLED,
+147|changed conditional boundary,,,,KILLED
+149|removed call to java/io/Writer::write,,,KILLED,
+150|removed call to java/io/Writer::write,,,KILLED,
+152|removed call to java/io/Writer::write,,KILLED,,
+155|negated conditional,,,KILLED,

@@ -1,0 +1,25 @@
+mutation,org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeEx()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeExternalExec()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeResultsIsSuccessfulFalse()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testAddInitializerAfterStart()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testCloseWithRuntimeException()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerSupplierTest]/[method:testCloseWithCheckedException()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeRuntimeEx()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeChildWithExecutor()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testInitializeNoChildren()],org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest]/[method:testIsInitialized()]
+149|negated conditional,KILLED,,,,,,,,,
+154|replaced return value with null for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::checkName,,KILLED,,,,,,,,
+169|replaced return value with null for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::getException,KILLED,,,,,,,,,
+181|replaced return value with null for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::getInitializer,,KILLED,,,,,,,,
+198|replaced return value with null for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::getResultObject,,KILLED,,,,,,,,
+209|replaced return value with Collections.emptySet for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::initializerNames,,KILLED,,,,,,,,
+222|replaced boolean return with false for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::isException,KILLED,,,,,,,,,
+232|replaced boolean return with true for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults::isSuccessful,,,KILLED,,,,,,,
+274|negated conditional,,,,KILLED,,,,,,
+293|removed call to org/apache/commons/lang3/concurrent/BackgroundInitializer::close,,,,,KILLED,,,,,
+295|negated conditional,,,,,KILLED,,,,,
+299|negated conditional,,,,,KILLED,,,,,
+302|removed call to org/apache/commons/lang3/concurrent/ConcurrentException::addSuppressed,,,,,,KILLED,,,,
+304|removed call to org/apache/commons/lang3/concurrent/ConcurrentException::addSuppressed,,,,,KILLED,,,,,
+309|negated conditional,,,,,KILLED,,,,,
+326|Replaced integer addition with subtraction,,,,,,,KILLED,,,
+349|removed call to java/util/Collection::forEach,,,,,,,KILLED,,,
+350|negated conditional,,,,,,,,KILLED,,
+352|removed call to org/apache/commons/lang3/concurrent/BackgroundInitializer::setExternalExecutor,,,,,,,,KILLED,,
+360|removed call to java/util/Map::forEach,,,,,,,KILLED,,,
+368|replaced return value with null for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer::initialize,,,,,,,,,KILLED,
+380|negated conditional,,,,,,,,,,KILLED
+381|replaced boolean return with true for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer::isInitialized,,,,,,,,,,KILLED
+384|replaced boolean return with false for org/apache/commons/lang3/concurrent/MultiBackgroundInitializer::isInitialized,,,,,,,,,,KILLED

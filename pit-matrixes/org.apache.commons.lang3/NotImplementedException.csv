@@ -1,0 +1,2 @@
+mutation,org.apache.commons.lang3.NotImplementedExceptionTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.NotImplementedExceptionTest]/[method:testConstructors()]
+"135|replaced return value with """" for org/apache/commons/lang3/NotImplementedException::getCode",KILLED

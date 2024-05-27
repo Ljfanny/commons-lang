@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.LongRangeTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.LongRangeTest]/[method:testToStringFormat()]
+49|replaced return value with null for org/apache/commons/lang3/LongRange::of,KILLED
+69|replaced return value with null for org/apache/commons/lang3/LongRange::of,KILLED

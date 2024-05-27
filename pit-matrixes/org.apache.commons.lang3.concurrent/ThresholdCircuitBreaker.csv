@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testThreshold()],org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testClosingThresholdCircuitBreaker()],org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testGettingThreshold()],org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testThresholdEqualsZero()],org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testThresholdCircuitBreakingException()]
+83|negated conditional,KILLED,,,,
+93|removed call to org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::close,,,,,
+94|removed call to java/util/concurrent/atomic/AtomicLong::set,,KILLED,,,
+103|replaced long return with 0 for org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker::getThreshold,,,KILLED,,
+113|negated conditional,KILLED,,,,
+114|removed call to org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker::open,,,,KILLED,
+118|changed conditional boundary,KILLED,,,,
+119|removed call to org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker::open,,,,,KILLED
+122|replaced boolean return with true for org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker::incrementAndCheckState,,,,KILLED,

@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.concurrent.FutureTasksTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.FutureTasksTest]/[method:testRun()]
+38|removed call to java/util/concurrent/FutureTask::run,KILLED
+39|replaced return value with null for org/apache/commons/lang3/concurrent/FutureTasks::run,KILLED

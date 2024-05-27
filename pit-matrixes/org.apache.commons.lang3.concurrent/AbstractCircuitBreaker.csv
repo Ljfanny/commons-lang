@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest]/[method:testChangeEvents()],org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest]/[method:testThresholdEqualsZero()],org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest]/[method:testInitiallyClosed()],org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest]/[method:testOpeningWhenThresholdReachedThroughBatch()],org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest]/[method:testRemoveChangeListener()]
+46|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractCircuitBreaker$State$1::oppositeState,KILLED,,,,
+57|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractCircuitBreaker$State$2::oppositeState,,KILLED,,,
+83|replaced boolean return with true for org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::isOpen,,,KILLED,,
+107|removed call to java/beans/PropertyChangeSupport::addPropertyChangeListener,KILLED,,,,
+117|negated conditional,KILLED,,,,
+118|negated conditional,KILLED,,,,
+133|removed call to org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::changeState,KILLED,,,,
+147|replaced boolean return with true for org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::isClosed,,,,KILLED,
+155|replaced boolean return with false for org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::isOpen,,KILLED,,,
+163|removed call to org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::changeState,,KILLED,,,
+172|removed call to java/beans/PropertyChangeSupport::removePropertyChangeListener,,,,,KILLED

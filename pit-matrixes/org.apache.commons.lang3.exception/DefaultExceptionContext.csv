@@ -1,0 +1,15 @@
+mutation,org.apache.commons.lang3.exception.DefaultExceptionContextTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.exception.DefaultExceptionContextTest]/[method:testFormattedExceptionMessageNull()],org.apache.commons.lang3.exception.DefaultExceptionContextTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.exception.DefaultExceptionContextTest]/[method:testGetContextLabels()],org.apache.commons.lang3.exception.DefaultExceptionContextTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.exception.DefaultExceptionContextTest]/[method:testGetContextValues()],org.apache.commons.lang3.exception.DefaultExceptionContextTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.exception.DefaultExceptionContextTest]/[method:testGetFirstContextValue()],org.apache.commons.lang3.exception.DefaultExceptionContextTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.exception.DefaultExceptionContextTest]/[method:testAddContextValue()]
+55|replaced return value with null for org/apache/commons/lang3/exception/DefaultExceptionContext::addContextValue,KILLED,,,,
+63|replaced return value with Collections.emptyList for org/apache/commons/lang3/exception/DefaultExceptionContext::getContextEntries,,KILLED,,,
+71|replaced return value with Collections.emptySet for org/apache/commons/lang3/exception/DefaultExceptionContext::getContextLabels,,KILLED,,,
+79|replaced boolean return with true for org/apache/commons/lang3/exception/DefaultExceptionContext::lambda$getContextValues$0,,,KILLED,,
+87|replaced boolean return with true for org/apache/commons/lang3/exception/DefaultExceptionContext::lambda$getFirstContextValue$1,,,,KILLED,
+99|negated conditional,,,,,KILLED
+103|negated conditional,,,,,KILLED
+104|negated conditional,,,,,
+112|Changed increment from 1 to -1,,,,,
+117|negated conditional,,,,,KILLED
+"132|replaced return value with """" for org/apache/commons/lang3/exception/DefaultExceptionContext::getFormattedExceptionMessage",,,,,KILLED
+140|replaced boolean return with false for org/apache/commons/lang3/exception/DefaultExceptionContext::lambda$setContextValue$2,,,,KILLED,
+142|replaced return value with null for org/apache/commons/lang3/exception/DefaultExceptionContext::setContextValue,,,,,
+146|replaced return value with Stream.empty for org/apache/commons/lang3/exception/DefaultExceptionContext::stream,,KILLED,,,

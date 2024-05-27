@@ -1,0 +1,4 @@
+mutation,org.apache.commons.lang3.builder.DiffTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffTest]/[method:testGetFieldName()],org.apache.commons.lang3.builder.DiffTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffTest]/[method:testGetType()],org.apache.commons.lang3.builder.DiffTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffTest]/[method:testToString()]
+"73|replaced return value with """" for org/apache/commons/lang3/builder/Diff::getFieldName",KILLED,,
+84|replaced return value with null for org/apache/commons/lang3/builder/Diff::getType,,KILLED,
+"111|replaced return value with """" for org/apache/commons/lang3/builder/Diff::toString",,,KILLED

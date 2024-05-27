@@ -1,0 +1,9 @@
+mutation,org.apache.commons.lang3.builder.RecursiveToStringStyleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.RecursiveToStringStyleTest]/[method:testPerson()],org.apache.commons.lang3.builder.RecursiveToStringStyleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.RecursiveToStringStyleTest]/[method:testObject()],org.apache.commons.lang3.builder.RecursiveToStringStyleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.RecursiveToStringStyleTest]/[method:testObjectArray()],org.apache.commons.lang3.builder.RecursiveToStringStyleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.RecursiveToStringStyleTest]/[method:testAppendSuper()]
+78|replaced boolean return with false for org/apache/commons/lang3/builder/RecursiveToStringStyle::accept,KILLED,,,
+83|removed call to org/apache/commons/lang3/builder/RecursiveToStringStyle::appendClassName,,KILLED,,
+84|removed call to org/apache/commons/lang3/builder/RecursiveToStringStyle::appendIdentityHashCode,,KILLED,,
+85|removed call to org/apache/commons/lang3/builder/RecursiveToStringStyle::appendDetail,,KILLED,,
+90|negated conditional,,,KILLED,
+91|negated conditional,,,,KILLED
+92|negated conditional,KILLED,,,
+95|removed call to org/apache/commons/lang3/builder/ToStringStyle::appendDetail,,,,KILLED

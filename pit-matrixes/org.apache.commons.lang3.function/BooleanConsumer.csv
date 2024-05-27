@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.function.BooleanConsumerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.BooleanConsumerTest]/[method:testAndThen()]
+41|replaced return value with null for org/apache/commons/lang3/function/BooleanConsumer::nop,KILLED
+63|replaced return value with null for org/apache/commons/lang3/function/BooleanConsumer::andThen,KILLED
+64|removed call to org/apache/commons/lang3/function/BooleanConsumer::accept,KILLED
+65|removed call to org/apache/commons/lang3/function/BooleanConsumer::accept,KILLED

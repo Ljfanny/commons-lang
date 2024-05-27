@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetDayOfYear()],org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetStandaloneShortMonthNames()],org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetDayOfMonth()],org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetMonth()],org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetStandaloneLongMonthNames()],org.apache.commons.lang3.time.CalendarUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.CalendarUtilsTest]/[method:testGetYear()]
+48|replaced return value with null for org/apache/commons/lang3/time/CalendarUtils::getInstance,KILLED,,,,,
+59|replaced return value with null for org/apache/commons/lang3/time/CalendarUtils::getInstance,,KILLED,,,,
+91|replaced int return with 0 for org/apache/commons/lang3/time/CalendarUtils::getDayOfMonth,,,KILLED,,,
+101|replaced int return with 0 for org/apache/commons/lang3/time/CalendarUtils::getDayOfYear,KILLED,,,,,
+110|replaced int return with 0 for org/apache/commons/lang3/time/CalendarUtils::getMonth,,,,KILLED,,
+122|negated conditional,,KILLED,,,,
+126|removed call to java/util/Map::forEach,,KILLED,,,,
+127|replaced return value with null for org/apache/commons/lang3/time/CalendarUtils::getMonthDisplayNames,,KILLED,,,,
+135|replaced return value with null for org/apache/commons/lang3/time/CalendarUtils::getStandaloneLongMonthNames,,,,,KILLED,
+143|replaced return value with null for org/apache/commons/lang3/time/CalendarUtils::getStandaloneShortMonthNames,,KILLED,,,,
+152|replaced int return with 0 for org/apache/commons/lang3/time/CalendarUtils::getYear,,,,,,KILLED

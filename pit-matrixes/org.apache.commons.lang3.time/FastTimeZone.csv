@@ -1,0 +1,13 @@
+mutation,org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testGetGmtTimeZone()],org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testOlson()],org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testZ()],org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testZeroOffsetsReturnSingleton()],org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testGmtPrefix()],org.apache.commons.lang3.time.FastTimeZoneTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastTimeZoneTest]/[method:testBareGmt()]
+39|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getGmtTimeZone,KILLED,,,,,
+50|negated conditional,,KILLED,,,,
+51|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getGmtTimeZone,,,KILLED,,,
+55|negated conditional,,KILLED,,,,
+58|negated conditional,,,,KILLED,,
+59|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getGmtTimeZone,,,,KILLED,,
+61|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getGmtTimeZone,,,,,KILLED,
+77|negated conditional,,,KILLED,,,
+78|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getTimeZone,,,KILLED,,,
+80|replaced return value with null for org/apache/commons/lang3/time/FastTimeZone::getTimeZone,,KILLED,,,,
+84|negated conditional,,,,,,KILLED
+88|negated conditional,,,,,KILLED,

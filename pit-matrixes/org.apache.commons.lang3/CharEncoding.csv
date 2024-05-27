@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.CharEncodingTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharEncodingTest]/[method:testSupported()],org.apache.commons.lang3.CharEncodingTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharEncodingTest]/[method:testNotSupported()]
+101|negated conditional,KILLED,
+102|replaced boolean return with true for org/apache/commons/lang3/CharEncoding::isSupported,,KILLED
+105|replaced boolean return with true for org/apache/commons/lang3/CharEncoding::isSupported,,KILLED
+107|replaced boolean return with true for org/apache/commons/lang3/CharEncoding::isSupported,,KILLED

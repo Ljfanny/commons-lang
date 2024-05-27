@@ -1,0 +1,6 @@
+mutation,none,org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testEscapeSurrogatePairsLang858()]
+38|replaced return value with null for org/apache/commons/lang3/text/translate/JavaUnicodeEscaper::above,NO_COVERAGE,
+49|replaced return value with null for org/apache/commons/lang3/text/translate/JavaUnicodeEscaper::below,NO_COVERAGE,
+62|replaced return value with null for org/apache/commons/lang3/text/translate/JavaUnicodeEscaper::between,NO_COVERAGE,
+75|replaced return value with null for org/apache/commons/lang3/text/translate/JavaUnicodeEscaper::outsideOf,,
+"104|replaced return value with """" for org/apache/commons/lang3/text/translate/JavaUnicodeEscaper::toUtf16Escape",,KILLED

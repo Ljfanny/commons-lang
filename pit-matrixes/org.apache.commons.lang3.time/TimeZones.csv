@@ -1,0 +1,2 @@
+mutation,org.apache.commons.lang3.time.FastDateFormat_PrinterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.time.FastDateFormat_PrinterTest]/[method:testPatternMatches()]
+51|replaced return value with null for org/apache/commons/lang3/time/TimeZones::toTimeZone,KILLED

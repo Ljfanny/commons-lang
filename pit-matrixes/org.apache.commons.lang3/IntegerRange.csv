@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.IntegerRangeTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.IntegerRangeTest]/[method:testGetMinimum()]
+49|replaced return value with null for org/apache/commons/lang3/IntegerRange::of,KILLED
+69|replaced return value with null for org/apache/commons/lang3/IntegerRange::of,KILLED

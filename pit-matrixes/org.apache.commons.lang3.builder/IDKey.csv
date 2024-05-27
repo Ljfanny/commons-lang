@@ -1,0 +1,7 @@
+mutation,org.apache.commons.lang3.builder.IDKeyTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.IDKeyTest]/[method:testEquals()]
+54|negated conditional,KILLED
+55|replaced boolean return with true for org/apache/commons/lang3/builder/IDKey::equals,KILLED
+58|negated conditional,KILLED
+59|replaced boolean return with true for org/apache/commons/lang3/builder/IDKey::equals,KILLED
+62|replaced boolean return with true for org/apache/commons/lang3/builder/IDKey::equals,
+72|replaced int return with 0 for org/apache/commons/lang3/builder/IDKey::hashCode,

@@ -1,0 +1,11 @@
+mutation,org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testListIsNonModifiable()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testLeftAndRightGetters()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testDefaultStyle()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testIterator()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testToStringFormat()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testNoDifferencesString()],org.apache.commons.lang3.builder.DiffResultTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.builder.DiffResultTest]/[method:testToStringSpecifyStyleOutput()]
+86|replaced return value with Collections.emptyList for org/apache/commons/lang3/builder/DiffResult::getDiffs,KILLED,,,,,,
+96|replaced return value with null for org/apache/commons/lang3/builder/DiffResult::getLeft,,KILLED,,,,,
+105|replaced int return with 0 for org/apache/commons/lang3/builder/DiffResult::getNumberOfDiffs,KILLED,,,,,,
+115|replaced return value with null for org/apache/commons/lang3/builder/DiffResult::getRight,,KILLED,,,,,
+124|replaced return value with null for org/apache/commons/lang3/builder/DiffResult::getToStringStyle,,,KILLED,,,,
+134|replaced return value with null for org/apache/commons/lang3/builder/DiffResult::iterator,,,,KILLED,,,
+"168|replaced return value with """" for org/apache/commons/lang3/builder/DiffResult::toString",,,,,KILLED,,
+181|negated conditional,,,,,,KILLED,
+188|removed call to java/util/List::forEach,,,,,,,KILLED
+"193|replaced return value with """" for org/apache/commons/lang3/builder/DiffResult::toString",,,,,,,KILLED

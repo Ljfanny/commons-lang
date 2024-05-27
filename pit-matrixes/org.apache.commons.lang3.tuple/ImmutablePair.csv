@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testEmptyArrayGenerics()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testToStringLeft()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testNullPairTyped()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testPairOfObjects()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testPairOfMapEntry()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testOfNonNull()],org.apache.commons.lang3.tuple.ImmutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutablePairTest]/[method:testToStringRight()]
+69|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::emptyArray,KILLED,,,,,,
+85|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::left,,KILLED,,,,,
+98|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::nullPair,,,KILLED,,,,
+114|negated conditional,,,,KILLED,,,
+130|negated conditional,,,,,KILLED,,
+148|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::ofNonNull,,,,,,KILLED,
+164|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::right,,,,,,,KILLED
+189|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::getLeft,,KILLED,,,,,
+197|replaced return value with null for org/apache/commons/lang3/tuple/ImmutablePair::getRight,,,,,KILLED,,

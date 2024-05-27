@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testLongPredicateOr()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testLongPredicateNegate()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testLongPredicateAnd()]
+34|replaced boolean return with true for org/apache/commons/lang3/function/FailableLongPredicate::lambda$static$0,KILLED,,
+38|replaced boolean return with false for org/apache/commons/lang3/function/FailableLongPredicate::lambda$static$1,KILLED,,
+48|replaced return value with null for org/apache/commons/lang3/function/FailableLongPredicate::falsePredicate,,KILLED,
+59|replaced return value with null for org/apache/commons/lang3/function/FailableLongPredicate::truePredicate,,KILLED,
+71|replaced boolean return with true for org/apache/commons/lang3/function/FailableLongPredicate::lambda$and$2,,,KILLED
+80|negated conditional,,KILLED,
+92|replaced boolean return with true for org/apache/commons/lang3/function/FailableLongPredicate::lambda$or$4,KILLED,,

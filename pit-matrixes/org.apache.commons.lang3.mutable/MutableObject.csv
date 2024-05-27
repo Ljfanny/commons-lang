@@ -1,0 +1,11 @@
+mutation,org.apache.commons.lang3.mutable.MutableObjectTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableObjectTest]/[method:testEquals()],none,org.apache.commons.lang3.mutable.MutableObjectTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableObjectTest]/[method:testConstructors()],org.apache.commons.lang3.mutable.MutableObjectTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableObjectTest]/[method:testHashCode()],org.apache.commons.lang3.mutable.MutableObjectTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableObjectTest]/[method:testToString()]
+68|negated conditional,KILLED,,,,
+69|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableObject::equals,,NO_COVERAGE,,,
+71|negated conditional,KILLED,,,,
+72|replaced boolean return with false for org/apache/commons/lang3/mutable/MutableObject::equals,KILLED,,,,
+74|negated conditional,KILLED,,,,
+76|replaced boolean return with false for org/apache/commons/lang3/mutable/MutableObject::equals,KILLED,,,,
+78|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableObject::equals,KILLED,,,,
+88|replaced return value with null for org/apache/commons/lang3/mutable/MutableObject::getValue,,,KILLED,,
+98|replaced int return with 0 for org/apache/commons/lang3/mutable/MutableObject::hashCode,,,,KILLED,
+"118|replaced return value with """" for org/apache/commons/lang3/mutable/MutableObject::toString",,,,,KILLED

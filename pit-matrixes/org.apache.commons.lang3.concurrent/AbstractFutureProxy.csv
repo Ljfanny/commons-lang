@@ -1,0 +1,7 @@
+mutation,none,org.apache.commons.lang3.concurrent.UncheckedFutureTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.UncheckedFutureTest]/[method:testOnFuture()]
+46|replaced boolean return with true for org/apache/commons/lang3/concurrent/AbstractFutureProxy::cancel,NO_COVERAGE,
+51|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractFutureProxy::get,,KILLED
+56|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractFutureProxy::get,NO_COVERAGE,
+65|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractFutureProxy::getFuture,NO_COVERAGE,
+70|replaced boolean return with false for org/apache/commons/lang3/concurrent/AbstractFutureProxy::isCancelled,NO_COVERAGE,
+75|replaced boolean return with false for org/apache/commons/lang3/concurrent/AbstractFutureProxy::isDone,NO_COVERAGE,

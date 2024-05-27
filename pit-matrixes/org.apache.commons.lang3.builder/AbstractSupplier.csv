@@ -1,0 +1,2 @@
+mutation,org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGet()]
+39|replaced return value with null for org/apache/commons/lang3/builder/AbstractSupplier::asThis,KILLED

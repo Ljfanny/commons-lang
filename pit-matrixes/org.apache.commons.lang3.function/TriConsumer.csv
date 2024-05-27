@@ -1,0 +1,4 @@
+mutation,org.apache.commons.lang3.function.TriConsumerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.TriConsumerTest]/[method:testAndThen()]
+65|replaced return value with null for org/apache/commons/lang3/function/TriConsumer::andThen,KILLED
+66|removed call to org/apache/commons/lang3/function/TriConsumer::accept,
+67|removed call to org/apache/commons/lang3/function/TriConsumer::accept,KILLED

@@ -1,0 +1,3 @@
+mutation,org.apache.commons.lang3.DoubleRangeTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.DoubleRangeTest]/[method:testGetMaximum()]
+49|replaced return value with null for org/apache/commons/lang3/DoubleRange::of,KILLED
+69|replaced return value with null for org/apache/commons/lang3/DoubleRange::of,KILLED

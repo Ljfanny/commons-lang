@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.tuple.MutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutablePairTest]/[method:testEmptyArrayGenerics()],org.apache.commons.lang3.tuple.MutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutablePairTest]/[method:testPairOfObjects()],org.apache.commons.lang3.tuple.MutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutablePairTest]/[method:testPairOfMapEntry()],org.apache.commons.lang3.tuple.MutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutablePairTest]/[method:testOfNonNull()],org.apache.commons.lang3.tuple.MutablePairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.MutablePairTest]/[method:testMutate()],org.apache.commons.lang3.tuple.PairTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.PairTest]/[method:testCompatibilityBetweenPairs()]
+58|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::emptyArray,KILLED,,,,,
+74|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::of,,KILLED,,,,
+91|negated conditional,,,KILLED,,,
+98|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::of,,,KILLED,,,
+116|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::ofNonNull,,,,KILLED,,
+147|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::getLeft,,,,,KILLED,
+155|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::getRight,,,,,KILLED,
+186|removed call to org/apache/commons/lang3/tuple/MutablePair::setRight,,,,,,KILLED
+187|replaced return value with null for org/apache/commons/lang3/tuple/MutablePair::setValue,,,,,,

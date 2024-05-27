@@ -1,0 +1,11 @@
+mutation,org.apache.commons.lang3.ObjectUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ObjectUtilsTest]/[method:testNull()],none,org.apache.commons.lang3.SerializationUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SerializationUtilsTest]/[method:testPrimitiveTypeClassSerialization()],org.apache.commons.lang3.SerializationUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SerializationUtilsTest]/[method:testCloneNull()],org.apache.commons.lang3.SerializationUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SerializationUtilsTest]/[method:testRoundtrip()],org.apache.commons.lang3.SerializationUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SerializationUtilsTest]/[method:testSerializeBytes()],org.apache.commons.lang3.SerializationUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.SerializationUtilsTest]/[method:testSerializeStream()]
+106|replaced return value with null for org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream::resolveClass,KILLED,,,,,,
+109|replaced return value with null for org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream::resolveClass,,NO_COVERAGE,,,,,
+112|negated conditional,,,KILLED,,,,
+113|replaced return value with null for org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream::resolveClass,,,KILLED,,,,
+137|negated conditional,,,,KILLED,,,
+175|replaced return value with null for org/apache/commons/lang3/SerializationUtils::deserialize,,,,,KILLED,,
+229|replaced return value with null for org/apache/commons/lang3/SerializationUtils::roundtrip,,,,,KILLED,,
+242|removed call to org/apache/commons/lang3/SerializationUtils::serialize,,,,,,KILLED,
+243|replaced return value with null for org/apache/commons/lang3/SerializationUtils::serialize,,,,,,KILLED,
+265|removed call to java/io/ObjectOutputStream::writeObject,,,,,,,KILLED

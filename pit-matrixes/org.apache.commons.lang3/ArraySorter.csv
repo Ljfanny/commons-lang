@@ -1,0 +1,28 @@
+mutation,org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortByteArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortCharArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortDoubleArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortFloatArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortIntArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortLongArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortShortArray()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortObjects()],org.apache.commons.lang3.ArraySorterTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArraySorterTest]/[method:testSortComparable()]
+38|negated conditional,KILLED,,,,,,,,
+39|removed call to java/util/Arrays::sort,KILLED,,,,,,,,
+41|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,KILLED,,,,,,,,
+52|negated conditional,,KILLED,,,,,,,
+53|removed call to java/util/Arrays::sort,,KILLED,,,,,,,
+55|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,KILLED,,,,,,,
+66|negated conditional,,,KILLED,,,,,,
+67|removed call to java/util/Arrays::sort,,,KILLED,,,,,,
+69|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,KILLED,,,,,,
+80|negated conditional,,,,KILLED,,,,,
+81|removed call to java/util/Arrays::sort,,,,KILLED,,,,,
+83|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,KILLED,,,,,
+94|negated conditional,,,,,KILLED,,,,
+95|removed call to java/util/Arrays::sort,,,,,KILLED,,,,
+97|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,,KILLED,,,,
+108|negated conditional,,,,,,KILLED,,,
+109|removed call to java/util/Arrays::sort,,,,,,KILLED,,,
+111|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,,,KILLED,,,
+122|negated conditional,,,,,,,KILLED,,
+123|removed call to java/util/Arrays::sort,,,,,,,KILLED,,
+125|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,,,,KILLED,,
+137|negated conditional,,,,,,,,KILLED,
+138|removed call to java/util/Arrays::sort,,,,,,,,KILLED,
+140|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,,,,,KILLED,
+154|negated conditional,,,,,,,,,KILLED
+155|removed call to java/util/Arrays::sort,,,,,,,,,KILLED
+157|replaced return value with null for org/apache/commons/lang3/ArraySorter::sort,,,,,,,,,KILLED

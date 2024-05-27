@@ -1,0 +1,5 @@
+mutation,none,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testDoubleUnaryOperatorCompose()]
+42|replaced double return with 0.0d for org/apache/commons/lang3/function/FailableDoubleUnaryOperator::lambda$identity$1,NO_COVERAGE,
+53|replaced return value with null for org/apache/commons/lang3/function/FailableDoubleUnaryOperator::nop,,KILLED
+68|replaced double return with 0.0d for org/apache/commons/lang3/function/FailableDoubleUnaryOperator::lambda$andThen$2,NO_COVERAGE,
+92|replaced return value with null for org/apache/commons/lang3/function/FailableDoubleUnaryOperator::compose,,KILLED

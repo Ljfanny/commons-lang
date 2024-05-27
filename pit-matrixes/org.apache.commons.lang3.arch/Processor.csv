@@ -1,0 +1,13 @@
+mutation,org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testArchLabels()],org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testTypeLabels()],org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testIs32BitJVM()],org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testArch()],org.apache.commons.lang3.ArchUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArchUtilsTest]/[method:testIs64BitJVM()]
+"70|replaced return value with """" for org/apache/commons/lang3/arch/Processor$Arch::getLabel",KILLED,,,,
+"138|replaced return value with """" for org/apache/commons/lang3/arch/Processor$Type::getLabel",,KILLED,,,
+166|replaced return value with null for org/apache/commons/lang3/arch/Processor::getArch,,,KILLED,,
+177|replaced return value with null for org/apache/commons/lang3/arch/Processor::getType,,,,KILLED,
+186|negated conditional,,,KILLED,,
+195|replaced boolean return with true for org/apache/commons/lang3/arch/Processor::is64Bit,,,,,KILLED
+206|negated conditional,,,,KILLED,
+215|negated conditional,,,,KILLED,
+224|negated conditional,,,,KILLED,
+234|replaced boolean return with true for org/apache/commons/lang3/arch/Processor::isRISCV,,,,,
+243|negated conditional,,,,KILLED,
+"250|replaced return value with """" for org/apache/commons/lang3/arch/Processor::toString",,,,,

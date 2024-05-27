@@ -1,0 +1,20 @@
+mutation,org.apache.commons.lang3.StringUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringUtilsTest]/[method:testEscapeSurrogatePairsLang858()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeJavaWithSlash()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeHtml()],none,org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testLang720()],org.apache.commons.lang3.text.translate.NumericEntityEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityEscaperTest]/[method:testSupplementary()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeXmlSupplementaryCharacters()]
+"51|replaced return value with """" for org/apache/commons/lang3/text/translate/CharSequenceTranslator::hex",KILLED,,,,,,
+60|negated conditional,,KILLED,,,,,
+"61|replaced return value with """" for org/apache/commons/lang3/text/translate/CharSequenceTranslator::translate",,,KILLED,,,,
+64|Replaced integer multiplication with division,,,,,,,
+65|removed call to org/apache/commons/lang3/text/translate/CharSequenceTranslator::translate,,KILLED,,,,,
+"66|replaced return value with """" for org/apache/commons/lang3/text/translate/CharSequenceTranslator::translate",,KILLED,,,,,
+97|negated conditional,,KILLED,,,,,
+102|changed conditional boundary,,KILLED,,,,,
+104|negated conditional,,,,TIMED_OUT,,,
+108|removed call to java/io/Writer::write,,KILLED,,,,,
+109|Changed increment from 1 to -1,,KILLED,,,,,
+110|negated conditional,,,,,,,
+112|negated conditional,,,,,,,
+113|removed call to java/io/Writer::write,,,,,KILLED,,
+114|Changed increment from 1 to -1,,,,,KILLED,,
+121|negated conditional,,,,,,KILLED,
+122|Replaced integer addition with subtraction,,,,,,KILLED,
+135|Replaced integer addition with subtraction,,,,,,,KILLED
+137|replaced return value with null for org/apache/commons/lang3/text/translate/CharSequenceTranslator::with,,,,,,,KILLED

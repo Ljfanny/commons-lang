@@ -1,0 +1,40 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAcceptBiConsumer()],org.apache.commons.lang3.stream.StreamsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.stream.StreamsTest]/[method:testSimpleStreamForEach()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAcceptDoubleConsumer()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAcceptIntConsumer()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAcceptLongConsumer()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testApplyBiFunction()],org.apache.commons.lang3.stream.StreamsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.stream.StreamsTest]/[method:testSimpleStreamMap()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testApplyDoubleBinaryOperator()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiConsumer()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiFunction()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testBiPredicate()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAsCallable()],org.apache.commons.lang3.stream.StreamsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.stream.StreamsTest]/[test-factory:simpleStreamFilterFailing()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAsRunnable()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testAsSupplier()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testGetFromSupplier()],none,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testTryWithResources()]
+85|removed call to org/apache/commons/lang3/function/Failable::run,KILLED,,,,,,,,,,,,,,,,,
+97|removed call to org/apache/commons/lang3/function/Failable::run,,KILLED,,,,,,,,,,,,,,,,
+108|removed call to org/apache/commons/lang3/function/Failable::run,,,KILLED,,,,,,,,,,,,,,,
+119|removed call to org/apache/commons/lang3/function/FailableIntConsumer::accept,,,,KILLED,,,,,,,,,,,,,,
+130|removed call to org/apache/commons/lang3/function/FailableLongConsumer::accept,,,,,KILLED,,,,,,,,,,,,,
+147|replaced return value with null for org/apache/commons/lang3/function/Failable::lambda$apply$5,,,,,,KILLED,,,,,,,,,,,,
+161|replaced return value with null for org/apache/commons/lang3/function/Failable::apply,,,,,,,KILLED,,,,,,,,,,,
+175|replaced double return with 0.0d for org/apache/commons/lang3/function/Failable::applyAsDouble,,,,,,,,KILLED,,,,,,,,,,
+187|replaced return value with null for org/apache/commons/lang3/function/Failable::asBiConsumer,,,,,,,,,KILLED,,,,,,,,,
+200|replaced return value with null for org/apache/commons/lang3/function/Failable::lambda$asBiFunction$9,,,,,,,,,,KILLED,,,,,,,,
+212|replaced return value with null for org/apache/commons/lang3/function/Failable::asBiPredicate,,,,,,,,,,,KILLED,,,,,,,
+223|replaced return value with null for org/apache/commons/lang3/function/Failable::asCallable,,,,,,,,,,,,KILLED,,,,,,
+234|replaced return value with null for org/apache/commons/lang3/function/Failable::asConsumer,,KILLED,,,,,,,,,,,,,,,,
+246|replaced return value with null for org/apache/commons/lang3/function/Failable::asFunction,,,,,,,KILLED,,,,,,,,,,,
+257|replaced boolean return with true for org/apache/commons/lang3/function/Failable::lambda$asPredicate$14,,,,,,,,,,,,,KILLED,,,,,
+267|removed call to org/apache/commons/lang3/function/Failable::run,,,,,,,,,,,,,,KILLED,,,,
+278|replaced return value with null for org/apache/commons/lang3/function/Failable::lambda$asSupplier$16,,,,,,,,,,,,,,,KILLED,,,
+290|replaced return value with null for org/apache/commons/lang3/function/Failable::call,,,,,,,,,,,,,,,,KILLED,,
+303|replaced return value with null for org/apache/commons/lang3/function/Failable::get,,,,,,,,,,,,,,,,KILLED,,
+318|replaced boolean return with false for org/apache/commons/lang3/function/Failable::getAsBoolean,,,,,,,,,,,KILLED,,,,,,,
+333|replaced double return with 0.0d for org/apache/commons/lang3/function/Failable::getAsDouble,,,,,,,,KILLED,,,,,,,,,,
+348|replaced int return with 0 for org/apache/commons/lang3/function/Failable::getAsInt,,,,,,,,,,,,,,,,,,
+363|replaced long return with 0 for org/apache/commons/lang3/function/Failable::getAsLong,,,,,,,,,,,,,,,,,,
+378|replaced short return with 0 for org/apache/commons/lang3/function/Failable::getAsShort,,,,,,,,,,,,,,,,,,
+412|negated conditional,,,,,,,,,,,,,,,,KILLED,,
+426|removed call to org/apache/commons/lang3/function/FailableRunnable::run,,,,,,,,,,,,,,,,KILLED,,
+445|replaced return value with null for org/apache/commons/lang3/function/Failable::stream,,KILLED,,,,,,,,,,,,,,,,
+459|replaced return value with null for org/apache/commons/lang3/function/Failable::stream,,,,,,,,,,,,,,,,,NO_COVERAGE,
+475|replaced boolean return with true for org/apache/commons/lang3/function/Failable::test,,,,,,,,,,,,,,,,,,
+488|replaced boolean return with true for org/apache/commons/lang3/function/Failable::lambda$test$18,,,,,,,,,,,,,KILLED,,,,,
+515|negated conditional,,,,,,,,,,,,,,,,,,KILLED
+520|removed call to java/util/stream/Stream::forEach,,,,,,,,,,,,,,,,,,
+523|removed call to org/apache/commons/lang3/function/FailableRunnable::run,,,,,,,,,,,,,,,,,,KILLED
+527|negated conditional,,,,,,,,,,,,,,,,,,KILLED
+530|removed call to org/apache/commons/lang3/function/FailableRunnable::run,,,,,,,,,,,,,,,,,,KILLED
+532|negated conditional,,,,,,,,,,,,,,,,,NO_COVERAGE,
+538|negated conditional,,,,,,,,,,,,,,,,,,KILLED
+540|removed call to org/apache/commons/lang3/function/FailableConsumer::accept,,,,,,,,,,,,,,,,,,KILLED
+567|removed call to org/apache/commons/lang3/function/Failable::tryWithResources,,,,,,,,,,,,,,,,,,KILLED

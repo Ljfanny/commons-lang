@@ -1,0 +1,13 @@
+mutation,org.apache.commons.lang3.text.translate.EntityArraysTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.EntityArraysTest]/[method:testHTML40_EXTENDED_ESCAPE()],org.apache.commons.lang3.text.translate.EntityArraysTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.EntityArraysTest]/[method:testISO8859_1_ESCAPE()]
+362|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::APOS_ESCAPE,,
+370|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::APOS_UNESCAPE,,
+380|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::BASIC_ESCAPE,,
+388|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::BASIC_UNESCAPE,,
+398|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::HTML40_EXTENDED_ESCAPE,KILLED,
+406|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::HTML40_EXTENDED_UNESCAPE,,
+416|changed conditional boundary,,
+420|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::invert,,
+429|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::ISO8859_1_ESCAPE,,KILLED
+437|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::ISO8859_1_UNESCAPE,,
+447|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::JAVA_CTRL_CHARS_ESCAPE,,
+455|replaced return value with null for org/apache/commons/lang3/text/translate/EntityArrays::JAVA_CTRL_CHARS_UNESCAPE,,

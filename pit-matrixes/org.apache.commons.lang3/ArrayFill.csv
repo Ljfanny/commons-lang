@@ -1,0 +1,25 @@
+mutation,org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillByteArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillCharArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillDoubleArrayNull()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillDoubleArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillFloatArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillIntArrayNull()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillIntArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillLongArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillShortArray()],org.apache.commons.lang3.ArrayFillTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.ArrayFillTest]/[method:testFillObjectArray()]
+38|negated conditional,KILLED,,,,,,,,,
+39|removed call to java/util/Arrays::fill,KILLED,,,,,,,,,
+41|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,KILLED,,,,,,,,,
+53|negated conditional,,KILLED,,,,,,,,
+54|removed call to java/util/Arrays::fill,,KILLED,,,,,,,,
+56|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,KILLED,,,,,,,,
+68|negated conditional,,,KILLED,,,,,,,
+69|removed call to java/util/Arrays::fill,,,,KILLED,,,,,,
+71|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,KILLED,,,,,,
+83|negated conditional,,,,,KILLED,,,,,
+84|removed call to java/util/Arrays::fill,,,,,KILLED,,,,,
+86|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,,KILLED,,,,,
+98|negated conditional,,,,,,KILLED,,,,
+99|removed call to java/util/Arrays::fill,,,,,,,KILLED,,,
+101|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,,,,KILLED,,,
+113|negated conditional,,,,,,,,KILLED,,
+114|removed call to java/util/Arrays::fill,,,,,,,,KILLED,,
+116|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,,,,,KILLED,,
+128|negated conditional,,,,,,,,,KILLED,
+129|removed call to java/util/Arrays::fill,,,,,,,,,KILLED,
+131|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,,,,,,KILLED,
+144|negated conditional,,,,,,,,,,KILLED
+145|removed call to java/util/Arrays::fill,,,,,,,,,,KILLED
+147|replaced return value with null for org/apache/commons/lang3/ArrayFill::fill,,,,,,,,,,KILLED

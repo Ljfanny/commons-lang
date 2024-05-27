@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.reflect.InheritanceUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.InheritanceUtilsTest]/[method:testDistanceEqual()],org.apache.commons.lang3.reflect.InheritanceUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.InheritanceUtilsTest]/[method:testDistanceNullParent()],org.apache.commons.lang3.reflect.InheritanceUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.InheritanceUtilsTest]/[method:testDistanceDisjoint()],org.apache.commons.lang3.reflect.InheritanceUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.InheritanceUtilsTest]/[method:testDistanceGreaterThanZero()],org.apache.commons.lang3.reflect.InheritanceUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.InheritanceUtilsTest]/[method:testDistanceReverseParentChild()]
+38|negated conditional,KILLED,,,,
+39|replaced int return with 0 for org/apache/commons/lang3/reflect/InheritanceUtils::distance,,KILLED,,,
+42|negated conditional,KILLED,,,,
+49|negated conditional,,,KILLED,,
+50|replaced int return with 0 for org/apache/commons/lang3/reflect/InheritanceUtils::distance,,,,KILLED,
+52|Replaced integer addition with subtraction,,,,,KILLED
+53|negated conditional,,,KILLED,,

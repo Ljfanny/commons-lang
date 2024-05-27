@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testEmptyArrayGenerics()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testNullTripleTyped()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testToString()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testOfNonNull()],org.apache.commons.lang3.tuple.ImmutableTripleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.tuple.ImmutableTripleTest]/[method:testBasic()]
+70|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::emptyArray,KILLED,,,,
+84|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::nullTriple,,KILLED,,,
+102|negated conditional,,,KILLED,,
+122|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::ofNonNull,,,,KILLED,
+151|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::getLeft,,,,,KILLED
+159|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::getMiddle,,,,,KILLED
+167|replaced return value with null for org/apache/commons/lang3/tuple/ImmutableTriple::getRight,,,,,KILLED

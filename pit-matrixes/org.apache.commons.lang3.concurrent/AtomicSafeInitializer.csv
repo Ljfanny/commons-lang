@@ -1,0 +1,10 @@
+mutation,org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testGet()],org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGetThatReturnsNullFirstTime()],org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGetConcurrent()],none,org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testGet()],org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerSupplierTest]/[method:testSupplierThrowsConcurrentException()],org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest]/[method:testisInitialized()]
+71|replaced return value with null for org/apache/commons/lang3/concurrent/AtomicSafeInitializer$Builder::get,KILLED,,,,,,
+86|replaced return value with null for org/apache/commons/lang3/concurrent/AtomicSafeInitializer::builder,KILLED,,,,,,
+123|negated conditional,,KILLED,,,,,
+124|negated conditional,,,KILLED,,,,
+125|removed call to java/util/concurrent/atomic/AtomicReference::set,,,,TIMED_OUT,,,
+129|replaced return value with null for org/apache/commons/lang3/concurrent/AtomicSafeInitializer::get,,,,,KILLED,,
+135|replaced return value with null for org/apache/commons/lang3/concurrent/AtomicSafeInitializer::getNoInit,,,,TIMED_OUT,,,
+143|replaced return value with null for org/apache/commons/lang3/concurrent/AtomicSafeInitializer::getTypedException,,,,,,KILLED,
+154|negated conditional,,,,,,,KILLED

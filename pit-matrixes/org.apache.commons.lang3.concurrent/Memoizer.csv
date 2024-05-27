@@ -1,0 +1,5 @@
+mutation,org.apache.commons.lang3.concurrent.MemoizerComputableTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MemoizerComputableTest]/[method:testOnlyCallComputableOnceIfDoesNotThrowException()],org.apache.commons.lang3.concurrent.MemoizerFunctionTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MemoizerFunctionTest]/[method:testOnlyCallComputableOnceIfDoesNotThrowException()],org.apache.commons.lang3.concurrent.MemoizerFunctionTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.MemoizerFunctionTest]/[method:testDoesNotRecalculateWhenSetToFalse()]
+78|replaced return value with null for org/apache/commons/lang3/concurrent/Memoizer::lambda$null$0,KILLED,,
+107|replaced return value with null for org/apache/commons/lang3/concurrent/Memoizer::lambda$null$2,,KILLED,
+128|replaced return value with null for org/apache/commons/lang3/concurrent/Memoizer::compute,KILLED,,
+132|negated conditional,,,KILLED

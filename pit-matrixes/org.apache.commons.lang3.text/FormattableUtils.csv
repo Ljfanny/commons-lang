@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.text.FormattableUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.FormattableUtilsTest]/[method:testDefaultAppend()],org.apache.commons.lang3.text.FormattableUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.FormattableUtilsTest]/[method:testAlternatePadCharacter()],org.apache.commons.lang3.text.FormattableUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.FormattableUtilsTest]/[method:testAlternatePadCharAndEllipsis()],none,org.apache.commons.lang3.text.FormattableUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.FormattableUtilsTest]/[method:testEllipsis()]
+61|replaced return value with null for org/apache/commons/lang3/text/FormattableUtils::append,KILLED,,,,
+78|replaced return value with null for org/apache/commons/lang3/text/FormattableUtils::append,,KILLED,,,
+96|changed conditional boundary,,,KILLED,,
+99|negated conditional,,KILLED,,,
+101|Replaced integer subtraction with addition,,,KILLED,,
+103|Replaced bitwise AND with OR,,KILLED,,,
+104|negated conditional,,,,TIMED_OUT,
+105|negated conditional,,KILLED,,,
+108|replaced return value with null for org/apache/commons/lang3/text/FormattableUtils::append,,KILLED,,,
+126|replaced return value with null for org/apache/commons/lang3/text/FormattableUtils::append,,,,,KILLED
+"137|replaced return value with """" for org/apache/commons/lang3/text/FormattableUtils::toString",,,,NO_COVERAGE,

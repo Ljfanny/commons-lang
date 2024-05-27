@@ -1,0 +1,11 @@
+mutation,org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testEqualsFalse()],org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testEqualsTrue()],org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testEqualsWithOtherObjects()],org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testGet()],org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testisInitialized()],org.apache.commons.lang3.concurrent.ConstantInitializerTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.ConstantInitializerTest]/[method:testToStringNull()]
+71|negated conditional,KILLED,,,,,
+72|replaced boolean return with false for org/apache/commons/lang3/concurrent/ConstantInitializer::equals,,KILLED,,,,
+74|negated conditional,,,KILLED,,,
+75|replaced boolean return with true for org/apache/commons/lang3/concurrent/ConstantInitializer::equals,,,KILLED,,,
+79|replaced boolean return with true for org/apache/commons/lang3/concurrent/ConstantInitializer::equals,KILLED,,,,,
+91|replaced return value with null for org/apache/commons/lang3/concurrent/ConstantInitializer::get,,,,KILLED,,
+102|replaced return value with null for org/apache/commons/lang3/concurrent/ConstantInitializer::getObject,,,,KILLED,,
+113|replaced int return with 0 for org/apache/commons/lang3/concurrent/ConstantInitializer::hashCode,,,,,,
+124|replaced boolean return with false for org/apache/commons/lang3/concurrent/ConstantInitializer::isInitialized,,,,,KILLED,
+"136|replaced return value with """" for org/apache/commons/lang3/concurrent/ConstantInitializer::toString",,,,,,KILLED

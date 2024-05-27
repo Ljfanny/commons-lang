@@ -1,0 +1,4 @@
+mutation,org.apache.commons.lang3.concurrent.UncheckedFutureTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.UncheckedFutureTest]/[method:testOnCollection()],org.apache.commons.lang3.concurrent.UncheckedFutureTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.UncheckedFutureTest]/[method:testGetLongInterruptedException()]
+49|replaced return value with Stream.empty for org/apache/commons/lang3/concurrent/UncheckedFuture::map,KILLED,
+61|replaced return value with Collections.emptyList for org/apache/commons/lang3/concurrent/UncheckedFuture::on,KILLED,
+73|replaced return value with null for org/apache/commons/lang3/concurrent/UncheckedFuture::on,,KILLED

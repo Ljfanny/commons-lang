@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.mutable.MutableBooleanTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableBooleanTest]/[method:testEquals()],org.apache.commons.lang3.mutable.MutableBooleanTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableBooleanTest]/[method:testCompareTo()],org.apache.commons.lang3.mutable.MutableBooleanTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableBooleanTest]/[method:testGetSet()],org.apache.commons.lang3.mutable.MutableBooleanTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableBooleanTest]/[method:testHashCode()],org.apache.commons.lang3.mutable.MutableBooleanTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.mutable.MutableBooleanTest]/[method:testToString()]
+76|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableBoolean::booleanValue,KILLED,,,,
+88|replaced int return with 0 for org/apache/commons/lang3/mutable/MutableBoolean::compareTo,,KILLED,,,
+101|negated conditional,KILLED,,,,
+102|negated conditional,KILLED,,,,
+104|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableBoolean::equals,KILLED,,,,
+114|replaced Boolean return with True for org/apache/commons/lang3/mutable/MutableBoolean::getValue,,,KILLED,,
+124|negated conditional,,,,KILLED,
+134|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableBoolean::isFalse,,,KILLED,,
+144|replaced boolean return with true for org/apache/commons/lang3/mutable/MutableBoolean::isTrue,,,KILLED,,
+192|replaced Boolean return with True for org/apache/commons/lang3/mutable/MutableBoolean::toBoolean,,,KILLED,,
+"202|replaced return value with """" for org/apache/commons/lang3/mutable/MutableBoolean::toString",,,,,KILLED

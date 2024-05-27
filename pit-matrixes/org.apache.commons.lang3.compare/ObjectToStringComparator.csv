@@ -1,0 +1,12 @@
+mutation,org.apache.commons.lang3.compare.ObjectToStringComparatorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.compare.ObjectToStringComparatorTest]/[method:testNull()],org.apache.commons.lang3.compare.ObjectToStringComparatorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.compare.ObjectToStringComparatorTest]/[method:testNullToString()],org.apache.commons.lang3.compare.ObjectToStringComparatorTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.compare.ObjectToStringComparatorTest]/[method:testSortCollection()]
+46|negated conditional,,,
+49|negated conditional,KILLED,,
+50|replaced int return with 0 for org/apache/commons/lang3/compare/ObjectToStringComparator::compare,,,
+52|negated conditional,KILLED,,
+53|replaced int return with 0 for org/apache/commons/lang3/compare/ObjectToStringComparator::compare,KILLED,,
+58|negated conditional,,,
+61|negated conditional,,KILLED,
+62|replaced int return with 0 for org/apache/commons/lang3/compare/ObjectToStringComparator::compare,,,
+64|negated conditional,,KILLED,
+65|replaced int return with 0 for org/apache/commons/lang3/compare/ObjectToStringComparator::compare,,KILLED,
+67|replaced int return with 0 for org/apache/commons/lang3/compare/ObjectToStringComparator::compare,,,KILLED

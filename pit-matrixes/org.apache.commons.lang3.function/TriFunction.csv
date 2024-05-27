@@ -1,0 +1,2 @@
+mutation,org.apache.commons.lang3.function.TriFunctionTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.TriFunctionTest]/[method:testAndThen()]
+54|replaced return value with null for org/apache/commons/lang3/function/TriFunction::lambda$andThen$0,KILLED

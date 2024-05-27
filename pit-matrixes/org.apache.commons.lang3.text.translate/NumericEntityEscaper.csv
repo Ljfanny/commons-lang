@@ -1,0 +1,14 @@
+mutation,org.apache.commons.lang3.text.translate.NumericEntityEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityEscaperTest]/[method:testAbove()],org.apache.commons.lang3.text.translate.NumericEntityEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityEscaperTest]/[method:testBelow()],org.apache.commons.lang3.text.translate.NumericEntityEscaperTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.translate.NumericEntityEscaperTest]/[method:testBetween()],org.apache.commons.lang3.StringEscapeUtilsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.StringEscapeUtilsTest]/[method:testEscapeXml11()]
+40|replaced return value with null for org/apache/commons/lang3/text/translate/NumericEntityEscaper::above,KILLED,,,
+49|replaced return value with null for org/apache/commons/lang3/text/translate/NumericEntityEscaper::below,,KILLED,,
+59|replaced return value with null for org/apache/commons/lang3/text/translate/NumericEntityEscaper::between,,,KILLED,
+70|replaced return value with null for org/apache/commons/lang3/text/translate/NumericEntityEscaper::outsideOf,,KILLED,,
+107|negated conditional,,KILLED,,
+108|changed conditional boundary,,,,KILLED
+109|replaced boolean return with true for org/apache/commons/lang3/text/translate/NumericEntityEscaper::translate,,,KILLED,
+111|negated conditional,,KILLED,,
+112|replaced boolean return with true for org/apache/commons/lang3/text/translate/NumericEntityEscaper::translate,,KILLED,,
+115|removed call to java/io/Writer::write,,KILLED,,
+116|removed call to java/io/Writer::write,,KILLED,,
+117|removed call to java/io/Writer::write,,KILLED,,
+118|replaced boolean return with false for org/apache/commons/lang3/text/translate/NumericEntityEscaper::translate,,KILLED,,

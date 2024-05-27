@@ -1,0 +1,4 @@
+mutation,org.apache.commons.lang3.CharsetsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharsetsTest]/[method:testToCharset_Charset()],org.apache.commons.lang3.CharsetsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharsetsTest]/[method:testToCharset_String()],org.apache.commons.lang3.CharsetsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.CharsetsTest]/[method:testToCharsetName()]
+44|negated conditional,KILLED,,
+56|replaced return value with null for org/apache/commons/lang3/Charsets::toCharset,,KILLED,
+"66|replaced return value with """" for org/apache/commons/lang3/Charsets::toCharsetName",,,KILLED

@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGet()],org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testIsInitialized()],org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSingleInstanceTest]/[method:testGet()],org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testSupplierThrowsCheckedException()],org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSimpleTest]/[method:testisInitialized()]
+85|replaced return value with null for org/apache/commons/lang3/concurrent/LazyInitializer$Builder::get,KILLED,,,,
+103|replaced return value with null for org/apache/commons/lang3/concurrent/LazyInitializer::builder,KILLED,,,,
+139|negated conditional,,KILLED,,,
+142|negated conditional,,KILLED,,,
+148|replaced return value with null for org/apache/commons/lang3/concurrent/LazyInitializer::get,,,KILLED,,
+156|replaced return value with null for org/apache/commons/lang3/concurrent/LazyInitializer::getTypedException,,,,KILLED,
+167|negated conditional,,,,,KILLED

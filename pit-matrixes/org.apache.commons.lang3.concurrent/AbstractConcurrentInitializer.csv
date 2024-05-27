@@ -1,0 +1,11 @@
+mutation,org.apache.commons.lang3.concurrent.LazyInitializerCloserTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerCloserTest]/[method:testGet()],org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testWorkingCloser()],org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.concurrent.LazyInitializerSupplierTest]/[method:testSupplierThrowsCheckedException()]
+63|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer$AbstractBuilder::getCloser,KILLED,,
+72|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer$AbstractBuilder::getInitializer,KILLED,,
+82|negated conditional,,KILLED,
+83|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer$AbstractBuilder::setCloser,KILLED,,
+93|negated conditional,KILLED,,
+94|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer$AbstractBuilder::setInitializer,KILLED,,
+134|negated conditional,,KILLED,
+136|removed call to org/apache/commons/lang3/function/FailableConsumer::accept,,KILLED,
+172|replaced return value with null for org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer::initialize,KILLED,,
+182|negated conditional,,,KILLED

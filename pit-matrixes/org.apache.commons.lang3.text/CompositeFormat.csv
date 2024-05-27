@@ -1,0 +1,6 @@
+mutation,org.apache.commons.lang3.text.CompositeFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.CompositeFormatTest]/[method:testUsage()],org.apache.commons.lang3.text.CompositeFormatTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.CompositeFormatTest]/[method:testCompositeFormat()]
+71|replaced return value with null for org/apache/commons/lang3/text/CompositeFormat::format,KILLED,
+80|replaced return value with null for org/apache/commons/lang3/text/CompositeFormat::getFormatter,,KILLED
+89|replaced return value with null for org/apache/commons/lang3/text/CompositeFormat::getParser,,KILLED
+104|replaced return value with null for org/apache/commons/lang3/text/CompositeFormat::parseObject,KILLED,
+"115|replaced return value with """" for org/apache/commons/lang3/text/CompositeFormat::reformat",KILLED,

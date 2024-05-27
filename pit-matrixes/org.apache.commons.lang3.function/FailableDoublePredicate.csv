@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testDoublePredicateAnd()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testDoublePredicateNegate()],org.apache.commons.lang3.function.FailableFunctionsTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.function.FailableFunctionsTest]/[method:testDoublePredicateOr()]
+34|replaced boolean return with true for org/apache/commons/lang3/function/FailableDoublePredicate::lambda$static$0,KILLED,,
+38|replaced boolean return with false for org/apache/commons/lang3/function/FailableDoublePredicate::lambda$static$1,KILLED,,
+48|replaced return value with null for org/apache/commons/lang3/function/FailableDoublePredicate::falsePredicate,,KILLED,
+59|replaced return value with null for org/apache/commons/lang3/function/FailableDoublePredicate::truePredicate,,KILLED,
+71|negated conditional,KILLED,,
+80|negated conditional,,KILLED,
+92|negated conditional,,,KILLED

@@ -1,0 +1,8 @@
+mutation,org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testMapLookup_nullMap()],org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testNoneLookup()],org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testMapLookup()],org.apache.commons.lang3.text.StrLookupTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.text.StrLookupTest]/[method:testSystemPropertiesLookupUpdatedProperty()]
+80|negated conditional,KILLED,,,
+"81|replaced return value with """" for org/apache/commons/lang3/text/StrLookup$MapStrLookup::lookup",,KILLED,,
+"83|replaced return value with """" for org/apache/commons/lang3/text/StrLookup$MapStrLookup::lookup",,,KILLED,
+"96|replaced return value with """" for org/apache/commons/lang3/text/StrLookup$SystemPropertiesStrLookup::lookup",,,,KILLED
+122|replaced return value with null for org/apache/commons/lang3/text/StrLookup::mapLookup,KILLED,,,
+131|replaced return value with null for org/apache/commons/lang3/text/StrLookup::noneLookup,,KILLED,,
+148|replaced return value with null for org/apache/commons/lang3/text/StrLookup::systemPropertiesLookup,,,,KILLED

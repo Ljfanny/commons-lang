@@ -1,0 +1,9 @@
+mutation,org.apache.commons.lang3.reflect.TypeLiteralTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.TypeLiteralTest]/[method:testEquals()],none,org.apache.commons.lang3.reflect.TypeLiteralTest.[engine:junit-jupiter]/[class:org.apache.commons.lang3.reflect.TypeLiteralTest]/[method:testTyped()]
+100|negated conditional,KILLED,,
+101|replaced boolean return with false for org/apache/commons/lang3/reflect/TypeLiteral::equals,,NO_COVERAGE,
+103|negated conditional,KILLED,,
+104|replaced boolean return with true for org/apache/commons/lang3/reflect/TypeLiteral::equals,,NO_COVERAGE,
+107|replaced boolean return with false for org/apache/commons/lang3/reflect/TypeLiteral::equals,KILLED,,
+112|replaced return value with null for org/apache/commons/lang3/reflect/TypeLiteral::getType,,,KILLED
+117|Replaced bitwise OR with AND,,NO_COVERAGE,
+"122|replaced return value with """" for org/apache/commons/lang3/reflect/TypeLiteral::toString",,NO_COVERAGE,
